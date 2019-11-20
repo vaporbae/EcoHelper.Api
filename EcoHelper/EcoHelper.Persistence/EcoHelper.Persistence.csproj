@@ -25,4 +25,8 @@
     <ProjectReference Include="..\EcoHelper.Common\EcoHelper.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>
