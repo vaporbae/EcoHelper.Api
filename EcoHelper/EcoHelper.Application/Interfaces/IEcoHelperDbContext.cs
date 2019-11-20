@@ -6,12 +6,11 @@ namespace EcoHelper.Application.Interfaces
 
     public interface IEcoHelperDbContext
     {
-        //DbSet<Calendar> Calendars { get; set; }
-        //DbSet<Event> Events { get; set; }
-        //DbSet<Friends> Friends { get; set; }
-        //DbSet<Location> Locations { get; set; }
-        //DbSet<UserCalendar> UserCalendars { get; set; }
-        //DbSet<UserEvent> UserEvents { get; set; }
         DbSet<User> Users { get; set; }
+        DbSet<Answer> Answers { get; set; }
+        DbSet<Dumpster> Dumpsters { get; set; }
+        DbSet<Garbage> Garbages { get; set; }
+        DbSet<InterestingFact> InterestingFacts { get; set; }
+        DbSet<Question> Questions { get; set; }
     }
 }

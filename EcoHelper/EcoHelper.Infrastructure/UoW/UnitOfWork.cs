@@ -20,6 +20,26 @@
         {
             get => Repository<UsersRepository, User, int>();
         }
+        public IAnswersRepository AnswersRepository
+        {
+            get => Repository<AnswersRepository, Answer, int>();
+        }
+        public IDumpstersRepository DumpstersRepository
+        {
+            get => Repository<DumpstersRepository, Dumpster, int>();
+        }
+        public IGarbagesRepository GarbagesRepository
+        {
+            get => Repository<GarbagesRepository, Garbage, int>();
+        }
+        public IInterestingFactsRepository InterestingFactsRepository
+        {
+            get => Repository<InterestingFactsRepository, InterestingFact, int>();
+        }
+        public IQuestionsRepository QuestionsRepository
+        {
+            get => Repository<QuestionsRepository, Question, int>();
+        }
 
         private readonly DbContext _context;
 

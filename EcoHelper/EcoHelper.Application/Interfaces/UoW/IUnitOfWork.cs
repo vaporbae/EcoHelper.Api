@@ -10,6 +10,11 @@
     public interface IUnitOfWork : IDisposable
     {
         IUsersRepository UsersRepository { get; }
+        IAnswersRepository AnswersRepository { get; }
+        IDumpstersRepository DumpstersRepository { get; }
+        IGarbagesRepository GarbagesRepository { get; }
+        IInterestingFactsRepository InterestingFactsRepository { get; }
+        IQuestionsRepository QuestionsRepository { get; }
 
         void Dispose(bool disposing);
 
