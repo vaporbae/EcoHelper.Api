@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Api", "EcoHelper\EcoHelper.Api.csproj", "{290A837C-FC2B-49EB-AA08-F3353E81B2CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{08B514E5-6B1C-4F3E-B722-DE77DC1951A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D8E85D06-12B6-400B-87F4-BFE88B6F9078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2D1F5169-A6B8-4EAF-970A-FF238D999706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8E7FB834-3309-402B-AB6E-10CA76FBAC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C94AFAB6-D3A7-4770-97E6-25B712A68960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Common", "EcoHelper.Common\EcoHelper.Common.csproj", "{463E62F5-5F37-4099-B5B7-F0095BCC99D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Application", "EcoHelper.Application\EcoHelper.Application.csproj", "{38E6465E-D3EE-4505-A8FC-92BF9B71A006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Application.DTO", "EcoHelper.Application.DTO\EcoHelper.Application.DTO.csproj", "{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Domain", "EcoHelper.Domain\EcoHelper.Domain.csproj", "{5E944739-3C06-430B-AEE4-DF4ADA7C9739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Infrastructure", "EcoHelper.Infrastructure\EcoHelper.Infrastructure.csproj", "{092821BE-B1B8-446E-87BC-D7108471A905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Persistence", "EcoHelper.Persistence\EcoHelper.Persistence.csproj", "{D2293C79-B3FD-4067-A066-28DC554DB926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHelper.Test", "EcoHelper.Test\EcoHelper.Test.csproj", "{F4EAA2B6-5A85-4594-901A-543825D46E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290A837C-FC2B-49EB-AA08-F3353E81B2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290A837C-FC2B-49EB-AA08-F3353E81B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290A837C-FC2B-49EB-AA08-F3353E81B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290A837C-FC2B-49EB-AA08-F3353E81B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463E62F5-5F37-4099-B5B7-F0095BCC99D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463E62F5-5F37-4099-B5B7-F0095BCC99D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463E62F5-5F37-4099-B5B7-F0095BCC99D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463E62F5-5F37-4099-B5B7-F0095BCC99D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E6465E-D3EE-4505-A8FC-92BF9B71A006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E6465E-D3EE-4505-A8FC-92BF9B71A006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E6465E-D3EE-4505-A8FC-92BF9B71A006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E6465E-D3EE-4505-A8FC-92BF9B71A006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E944739-3C06-430B-AEE4-DF4ADA7C9739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E944739-3C06-430B-AEE4-DF4ADA7C9739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E944739-3C06-430B-AEE4-DF4ADA7C9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E944739-3C06-430B-AEE4-DF4ADA7C9739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092821BE-B1B8-446E-87BC-D7108471A905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092821BE-B1B8-446E-87BC-D7108471A905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092821BE-B1B8-446E-87BC-D7108471A905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092821BE-B1B8-446E-87BC-D7108471A905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2293C79-B3FD-4067-A066-28DC554DB926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2293C79-B3FD-4067-A066-28DC554DB926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2293C79-B3FD-4067-A066-28DC554DB926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2293C79-B3FD-4067-A066-28DC554DB926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EAA2B6-5A85-4594-901A-543825D46E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EAA2B6-5A85-4594-901A-543825D46E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EAA2B6-5A85-4594-901A-543825D46E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EAA2B6-5A85-4594-901A-543825D46E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{290A837C-FC2B-49EB-AA08-F3353E81B2CE} = {2D1F5169-A6B8-4EAF-970A-FF238D999706}
+		{463E62F5-5F37-4099-B5B7-F0095BCC99D5} = {08B514E5-6B1C-4F3E-B722-DE77DC1951A5}
+		{38E6465E-D3EE-4505-A8FC-92BF9B71A006} = {D8E85D06-12B6-400B-87F4-BFE88B6F9078}
+		{E5FDF1CC-E3BA-4201-8BFB-6991DC99AFA7} = {D8E85D06-12B6-400B-87F4-BFE88B6F9078}
+		{5E944739-3C06-430B-AEE4-DF4ADA7C9739} = {D8E85D06-12B6-400B-87F4-BFE88B6F9078}
+		{092821BE-B1B8-446E-87BC-D7108471A905} = {8E7FB834-3309-402B-AB6E-10CA76FBAC75}
+		{D2293C79-B3FD-4067-A066-28DC554DB926} = {8E7FB834-3309-402B-AB6E-10CA76FBAC75}
+		{F4EAA2B6-5A85-4594-901A-543825D46E3C} = {C94AFAB6-D3A7-4770-97E6-25B712A68960}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97D55275-32F2-42F8-B1C2-7695721DC38B}
+	EndGlobalSection
+EndGlobal

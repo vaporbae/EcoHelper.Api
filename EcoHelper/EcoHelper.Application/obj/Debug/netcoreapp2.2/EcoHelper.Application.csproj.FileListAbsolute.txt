@@ -1,0 +1,15 @@
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Application.deps.json
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Application.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Common.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\bin\Debug\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.csprojAssemblyReference.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.AssemblyInfoInputs.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.AssemblyInfo.cs
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.csproj.CopyComplete
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Debug\netcoreapp2.2\EcoHelper.Application.pdb

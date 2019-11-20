@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <ProjectGuid>{0FB47B07-412A-42EC-B7A6-849A7D138777}</ProjectGuid>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\EcoHelper.Api\appsettings.Development.json" Link="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.6.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Shouldly" Version="3.0.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcoHelper.Application.DTO\EcoHelper.Application.DTO.csproj" />
+    <ProjectReference Include="..\EcoHelper.Application\EcoHelper.Application.csproj" />
+    <ProjectReference Include="..\EcoHelper.Common\EcoHelper.Common.csproj" />
+    <ProjectReference Include="..\EcoHelper.Domain\EcoHelper.Domain.csproj" />
+    <ProjectReference Include="..\EcoHelper.Infrastructure\EcoHelper.Infrastructure.csproj" />
+    <ProjectReference Include="..\EcoHelper.Persistence\EcoHelper.Persistence.csproj" />
+    <ProjectReference Include="..\EcoHelper\EcoHelper.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\EcoHelper.Api\appsettings.json" CopyToPublishDirectory="Always" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>
