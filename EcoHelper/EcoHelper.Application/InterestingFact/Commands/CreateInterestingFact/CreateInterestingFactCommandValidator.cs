@@ -1,10 +1,59 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EcoHelper.Application.InterestingFact.Commands.CreateInterestingFact
+﻿namespace EcoHelper.Application.InterestingFact.Commands.CreateInterestingFact
 {
-    class CreateInterestingFactCommandValidator
+    using FluentValidation;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.DTO.InterestingFact.Commands;
+    using System.Linq;
+
+    public class CreateInterestingFactCommandValidator : AbstractValidator<CreateInterestingFactRequest>
     {
+        public CreateInterestingFactCommandValidator(IUnitOfWork uow)
+        {
+            RuleFor(x => x.Title).NotEmpty().WithMessage("You must set Title.");
+            RuleFor(x => x.Description).NotEmpty().WithMessage("You must set Description.");
+
+            RuleFor(x => x).MustAsync(async (request, val, token) =>
+            {
+                var dumpsterId = val.DumpsterId ?? default(int);
+                if (val.DumpsterId == null)
+                {
+                    return true;
+                }
+                else
+                {
+                    var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
+
+                    if (result==null)
+                    {
+                        return false;
+                    }
+
+                    return true;
+                }
+
+            }).WithMessage("This dumpster does not exist.");
+
+            RuleFor(x => x).MustAsync(async (request, val, token) =>
+            {
+                var dumpsterId = val.DumpsterId ?? default(int);
+                if (val.DumpsterId == null)
+                {
+                    return true;
+                }
+                else
+                {
+                    var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
+                    var dumpsterFacts = result.InterestingFacts.ToList();
+
+                    if (dumpsterFacts.Where(y=>y.Title.ToLower().Equals(val.Title.ToLower())).Count()>0)
+                    {
+                        return false;
+                    }
+
+                    return true;
+                }
+               
+            }).WithMessage("This fact already exists for this dumpster.");
+        }
     }
 }

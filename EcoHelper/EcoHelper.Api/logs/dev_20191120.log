@@ -1,0 +1,309 @@
+2019-11-20 18:43:34.136 +01:00 [WRN] <iisexpress 27376:1> (~) DEVelopment mode enabled!
+2019-11-20 18:43:34.209 +01:00 [WRN] <iisexpress 27376:1> (~) Verbose logging mode enabled!
+2019-11-20 18:43:34.209 +01:00 [INF] <iisexpress 27376:1> (~) Starting web host...
+2019-11-20 18:43:40.345 +01:00 [DBG] <iisexpress 27376:1> (~) Hosting starting
+2019-11-20 18:43:40.471 +01:00 [INF] <iisexpress 27376:1> (~) User profile is available. Using 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-20 18:43:40.477 +01:00 [DBG] <iisexpress 27376:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ed52fe6-a53c-4b17-be2c-a8e61762168f.xml'.
+2019-11-20 18:43:40.534 +01:00 [DBG] <iisexpress 27376:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-49bbe92b-b10d-4fee-b608-74620261f362.xml'.
+2019-11-20 18:43:40.534 +01:00 [DBG] <iisexpress 27376:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-d7d53875-a572-46e5-a6ba-0dd48313d475.xml'.
+2019-11-20 18:43:40.540 +01:00 [DBG] <iisexpress 27376:1> (~) Found key "2ed52fe6-a53c-4b17-be2c-a8e61762168f".
+2019-11-20 18:43:40.546 +01:00 [DBG] <iisexpress 27376:1> (~) Found key "49bbe92b-b10d-4fee-b608-74620261f362".
+2019-11-20 18:43:40.546 +01:00 [DBG] <iisexpress 27376:1> (~) Found key "d7d53875-a572-46e5-a6ba-0dd48313d475".
+2019-11-20 18:43:40.556 +01:00 [DBG] <iisexpress 27376:1> (~) Considering key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" with expiration date "2020-01-25T12:19:45.6008182+00:00" as default key.
+2019-11-20 18:43:40.622 +01:00 [DBG] <iisexpress 27376:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 18:43:40.623 +01:00 [DBG] <iisexpress 27376:1> (~) Decrypting secret element using Windows DPAPI.
+2019-11-20 18:43:40.625 +01:00 [DBG] <iisexpress 27376:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 18:43:40.626 +01:00 [DBG] <iisexpress 27376:1> (~) Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-11-20 18:43:40.629 +01:00 [DBG] <iisexpress 27376:1> (~) Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-11-20 18:43:40.633 +01:00 [DBG] <iisexpress 27376:1> (~) Using key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" as the default key.
+2019-11-20 18:43:40.633 +01:00 [DBG] <iisexpress 27376:1> (~) Key ring with default key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" was loaded during application startup.
+2019-11-20 18:43:40.737 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.791 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-11-20 18:43:40.792 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.806 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-11-20 18:43:40.806 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-11-20 18:43:40.806 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-11-20 18:43:40.810 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.810 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.810 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.830 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-11-20 18:43:40.865 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.865 +01:00 [DBG] <iisexpress 27376:1> (~) Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:43:40.910 +01:00 [DBG] <iisexpress 27376:1> (~) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-11-20 18:43:41.242 +01:00 [DBG] <iisexpress 27376:1> (~) Hosting started
+2019-11-20 18:43:41.242 +01:00 [DBG] <iisexpress 27376:1> (~) Loaded hosting startup assembly EcoHelper.Api
+2019-11-20 18:43:41.242 +01:00 [DBG] <iisexpress 27376:1> (~) Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-11-20 18:43:41.383 +01:00 [INF] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) Request starting HTTP/2.0 GET https://localhost:44397/swagger  
+2019-11-20 18:43:41.386 +01:00 [DBG] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) Wildcard detected, all requests with hosts will be allowed.
+2019-11-20 18:43:41.386 +01:00 [VRB] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) All hosts are allowed.
+2019-11-20 18:43:41.476 +01:00 [DBG] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:41.519 +01:00 [DBG] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) No candidates found for the request path '/swagger'
+2019-11-20 18:43:41.519 +01:00 [DBG] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) Request did not match any endpoints
+2019-11-20 18:43:41.638 +01:00 [DBG] <iisexpress 27376:17> (~) Connection ID "18374686502757073279" disconnecting.
+2019-11-20 18:43:41.638 +01:00 [INF] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) Request starting HTTP/2.0 GET https://localhost:44397/swagger/index.html  
+2019-11-20 18:43:41.638 +01:00 [VRB] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) All hosts are allowed.
+2019-11-20 18:43:41.639 +01:00 [DBG] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:41.639 +01:00 [DBG] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) No candidates found for the request path '/swagger/index.html'
+2019-11-20 18:43:41.639 +01:00 [DBG] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) Request did not match any endpoints
+2019-11-20 18:43:41.664 +01:00 [INF] <iisexpress 27376:10> (80000180-0005-ff00-b63f-84710c7967bb~/swagger) Request finished in 281.0016ms 301 
+2019-11-20 18:43:41.839 +01:00 [INF] <iisexpress 27376:13> (80000165-0007-fd00-b63f-84710c7967bb~/swagger/index.html) Request finished in 201.364ms 200 text/html
+2019-11-20 18:43:41.927 +01:00 [INF] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) Request starting HTTP/2.0 GET https://localhost:44397/swagger/swagger-ui-bundle.js  
+2019-11-20 18:43:41.928 +01:00 [VRB] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) All hosts are allowed.
+2019-11-20 18:43:41.929 +01:00 [DBG] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:41.929 +01:00 [DBG] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2019-11-20 18:43:41.929 +01:00 [DBG] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) Request did not match any endpoints
+2019-11-20 18:43:41.929 +01:00 [INF] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) Request starting HTTP/2.0 GET https://localhost:44397/swagger/swagger-ui-standalone-preset.js  
+2019-11-20 18:43:41.929 +01:00 [VRB] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) All hosts are allowed.
+2019-11-20 18:43:41.953 +01:00 [DBG] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:41.954 +01:00 [DBG] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2019-11-20 18:43:41.954 +01:00 [INF] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) Request starting HTTP/2.0 GET https://localhost:44397/swagger/swagger-ui.css  
+2019-11-20 18:43:41.954 +01:00 [DBG] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) Request did not match any endpoints
+2019-11-20 18:43:41.954 +01:00 [VRB] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) All hosts are allowed.
+2019-11-20 18:43:41.954 +01:00 [DBG] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:41.954 +01:00 [DBG] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) No candidates found for the request path '/swagger/swagger-ui.css'
+2019-11-20 18:43:41.954 +01:00 [DBG] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) Request did not match any endpoints
+2019-11-20 18:43:41.965 +01:00 [VRB] <iisexpress 27376:13> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) Range header's value is empty.
+2019-11-20 18:43:41.965 +01:00 [VRB] <iisexpress 27376:9> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) Range header's value is empty.
+2019-11-20 18:43:41.965 +01:00 [VRB] <iisexpress 27376:11> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) Range header's value is empty.
+2019-11-20 18:43:42.058 +01:00 [INF] <iisexpress 27376:19> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-20 18:43:42.058 +01:00 [INF] <iisexpress 27376:21> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-11-20 18:43:42.070 +01:00 [INF] <iisexpress 27376:12> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-11-20 18:43:42.075 +01:00 [INF] <iisexpress 27376:19> (80000002-0006-fa00-b63f-84710c7967bb~/swagger/swagger-ui-standalone-preset.js) Request finished in 145.7576ms 200 application/javascript
+2019-11-20 18:43:42.075 +01:00 [INF] <iisexpress 27376:12> (80000015-0004-fe00-b63f-84710c7967bb~/swagger/swagger-ui-bundle.js) Request finished in 148.433ms 200 application/javascript
+2019-11-20 18:43:42.075 +01:00 [INF] <iisexpress 27376:10> (80000002-0006-fb00-b63f-84710c7967bb~/swagger/swagger-ui.css) Request finished in 121.4458ms 200 text/css
+2019-11-20 18:43:42.427 +01:00 [INF] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request starting HTTP/2.0 GET https://localhost:44397/swagger/v1/swagger.json  
+2019-11-20 18:43:42.427 +01:00 [VRB] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) All hosts are allowed.
+2019-11-20 18:43:42.427 +01:00 [DBG] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:42.427 +01:00 [DBG] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) No candidates found for the request path '/swagger/v1/swagger.json'
+2019-11-20 18:43:42.427 +01:00 [DBG] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request did not match any endpoints
+2019-11-20 18:43:42.458 +01:00 [INF] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) Request starting HTTP/2.0 GET https://localhost:44397/swagger/favicon-32x32.png  
+2019-11-20 18:43:42.458 +01:00 [VRB] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) All hosts are allowed.
+2019-11-20 18:43:42.459 +01:00 [DBG] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:43:42.459 +01:00 [DBG] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) No candidates found for the request path '/swagger/favicon-32x32.png'
+2019-11-20 18:43:42.459 +01:00 [DBG] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) Request did not match any endpoints
+2019-11-20 18:43:42.459 +01:00 [VRB] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) Range header's value is empty.
+2019-11-20 18:43:42.460 +01:00 [INF] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-20 18:43:42.460 +01:00 [INF] <iisexpress 27376:9> (80000017-0004-fe00-b63f-84710c7967bb~/swagger/favicon-32x32.png) Request finished in 1.7369ms 200 image/png
+2019-11-20 18:43:42.651 +01:00 [INF] <iisexpress 27376:13> (80000182-0005-ff00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request finished in 224.5016ms 200 application/json;charset=utf-8
+2019-11-20 18:45:16.139 +01:00 [WRN] <iisexpress 22936:1> (~) DEVelopment mode enabled!
+2019-11-20 18:45:16.229 +01:00 [WRN] <iisexpress 22936:1> (~) Verbose logging mode enabled!
+2019-11-20 18:45:16.229 +01:00 [INF] <iisexpress 22936:1> (~) Starting web host...
+2019-11-20 18:45:19.715 +01:00 [DBG] <iisexpress 22936:1> (~) Hosting starting
+2019-11-20 18:45:19.844 +01:00 [INF] <iisexpress 22936:1> (~) User profile is available. Using 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-20 18:45:19.850 +01:00 [DBG] <iisexpress 22936:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ed52fe6-a53c-4b17-be2c-a8e61762168f.xml'.
+2019-11-20 18:45:19.898 +01:00 [DBG] <iisexpress 22936:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-49bbe92b-b10d-4fee-b608-74620261f362.xml'.
+2019-11-20 18:45:19.899 +01:00 [DBG] <iisexpress 22936:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-d7d53875-a572-46e5-a6ba-0dd48313d475.xml'.
+2019-11-20 18:45:19.904 +01:00 [DBG] <iisexpress 22936:1> (~) Found key "2ed52fe6-a53c-4b17-be2c-a8e61762168f".
+2019-11-20 18:45:19.909 +01:00 [DBG] <iisexpress 22936:1> (~) Found key "49bbe92b-b10d-4fee-b608-74620261f362".
+2019-11-20 18:45:19.909 +01:00 [DBG] <iisexpress 22936:1> (~) Found key "d7d53875-a572-46e5-a6ba-0dd48313d475".
+2019-11-20 18:45:19.919 +01:00 [DBG] <iisexpress 22936:1> (~) Considering key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" with expiration date "2020-01-25T12:19:45.6008182+00:00" as default key.
+2019-11-20 18:45:19.989 +01:00 [DBG] <iisexpress 22936:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 18:45:19.990 +01:00 [DBG] <iisexpress 22936:1> (~) Decrypting secret element using Windows DPAPI.
+2019-11-20 18:45:19.992 +01:00 [DBG] <iisexpress 22936:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 18:45:19.993 +01:00 [DBG] <iisexpress 22936:1> (~) Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-11-20 18:45:19.996 +01:00 [DBG] <iisexpress 22936:1> (~) Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-11-20 18:45:20.001 +01:00 [DBG] <iisexpress 22936:1> (~) Using key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" as the default key.
+2019-11-20 18:45:20.002 +01:00 [DBG] <iisexpress 22936:1> (~) Key ring with default key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" was loaded during application startup.
+2019-11-20 18:45:20.090 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.143 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.143 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.143 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.144 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-11-20 18:45:20.144 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.144 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.144 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-11-20 18:45:20.144 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.164 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-11-20 18:45:20.164 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-11-20 18:45:20.164 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-11-20 18:45:20.169 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.169 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.169 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.193 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-11-20 18:45:20.291 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.291 +01:00 [DBG] <iisexpress 22936:1> (~) Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 18:45:20.358 +01:00 [DBG] <iisexpress 22936:1> (~) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-11-20 18:45:20.772 +01:00 [DBG] <iisexpress 22936:1> (~) Hosting started
+2019-11-20 18:45:20.772 +01:00 [DBG] <iisexpress 22936:1> (~) Loaded hosting startup assembly EcoHelper.Api
+2019-11-20 18:45:20.772 +01:00 [DBG] <iisexpress 22936:1> (~) Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-11-20 18:45:20.904 +01:00 [INF] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) Request starting HTTP/2.0 GET https://localhost:44397/swagger/index.html  
+2019-11-20 18:45:20.907 +01:00 [DBG] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) Wildcard detected, all requests with hosts will be allowed.
+2019-11-20 18:45:20.908 +01:00 [VRB] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) All hosts are allowed.
+2019-11-20 18:45:21.003 +01:00 [DBG] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:45:21.046 +01:00 [DBG] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) No candidates found for the request path '/swagger/index.html'
+2019-11-20 18:45:21.046 +01:00 [DBG] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) Request did not match any endpoints
+2019-11-20 18:45:21.347 +01:00 [INF] <iisexpress 22936:11> (80000031-0003-fb00-b63f-84710c7967bb~/swagger/index.html) Request finished in 443.2256ms 200 text/html
+2019-11-20 18:45:22.008 +01:00 [INF] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request starting HTTP/2.0 GET https://localhost:44397/swagger/v1/swagger.json  
+2019-11-20 18:45:22.008 +01:00 [VRB] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) All hosts are allowed.
+2019-11-20 18:45:22.010 +01:00 [DBG] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 18:45:22.010 +01:00 [DBG] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) No candidates found for the request path '/swagger/v1/swagger.json'
+2019-11-20 18:45:22.010 +01:00 [DBG] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request did not match any endpoints
+2019-11-20 18:45:22.367 +01:00 [INF] <iisexpress 22936:9> (80000033-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request finished in 359.5211ms 200 application/json;charset=utf-8
+2019-11-20 21:00:17.931 +01:00 [WRN] <iisexpress 26908:1> (~) DEVelopment mode enabled!
+2019-11-20 21:00:18.015 +01:00 [WRN] <iisexpress 26908:1> (~) Verbose logging mode enabled!
+2019-11-20 21:00:18.015 +01:00 [INF] <iisexpress 26908:1> (~) Starting web host...
+2019-11-20 21:00:22.592 +01:00 [DBG] <iisexpress 26908:1> (~) Hosting starting
+2019-11-20 21:00:22.737 +01:00 [INF] <iisexpress 26908:1> (~) User profile is available. Using 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-20 21:00:22.745 +01:00 [DBG] <iisexpress 26908:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ed52fe6-a53c-4b17-be2c-a8e61762168f.xml'.
+2019-11-20 21:00:22.824 +01:00 [DBG] <iisexpress 26908:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-49bbe92b-b10d-4fee-b608-74620261f362.xml'.
+2019-11-20 21:00:22.825 +01:00 [DBG] <iisexpress 26908:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-d7d53875-a572-46e5-a6ba-0dd48313d475.xml'.
+2019-11-20 21:00:22.833 +01:00 [DBG] <iisexpress 26908:1> (~) Found key "2ed52fe6-a53c-4b17-be2c-a8e61762168f".
+2019-11-20 21:00:22.838 +01:00 [DBG] <iisexpress 26908:1> (~) Found key "49bbe92b-b10d-4fee-b608-74620261f362".
+2019-11-20 21:00:22.838 +01:00 [DBG] <iisexpress 26908:1> (~) Found key "d7d53875-a572-46e5-a6ba-0dd48313d475".
+2019-11-20 21:00:22.857 +01:00 [DBG] <iisexpress 26908:1> (~) Considering key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" with expiration date "2020-01-25T12:19:45.6008182+00:00" as default key.
+2019-11-20 21:00:22.962 +01:00 [DBG] <iisexpress 26908:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 21:00:22.963 +01:00 [DBG] <iisexpress 26908:1> (~) Decrypting secret element using Windows DPAPI.
+2019-11-20 21:00:22.965 +01:00 [DBG] <iisexpress 26908:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 21:00:22.966 +01:00 [DBG] <iisexpress 26908:1> (~) Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-11-20 21:00:22.972 +01:00 [DBG] <iisexpress 26908:1> (~) Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-11-20 21:00:22.981 +01:00 [DBG] <iisexpress 26908:1> (~) Using key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" as the default key.
+2019-11-20 21:00:22.982 +01:00 [DBG] <iisexpress 26908:1> (~) Key ring with default key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" was loaded during application startup.
+2019-11-20 21:00:23.106 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-11-20 21:00:23.163 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.189 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-11-20 21:00:23.189 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-11-20 21:00:23.189 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-11-20 21:00:23.193 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.194 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.194 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.223 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-11-20 21:00:23.330 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.330 +01:00 [DBG] <iisexpress 26908:1> (~) Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:00:23.392 +01:00 [DBG] <iisexpress 26908:1> (~) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-11-20 21:00:23.880 +01:00 [DBG] <iisexpress 26908:1> (~) Hosting started
+2019-11-20 21:00:23.880 +01:00 [DBG] <iisexpress 26908:1> (~) Loaded hosting startup assembly EcoHelper.Api
+2019-11-20 21:00:23.880 +01:00 [DBG] <iisexpress 26908:1> (~) Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-11-20 21:00:24.039 +01:00 [INF] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) Request starting HTTP/2.0 GET https://localhost:44397/swagger/index.html  
+2019-11-20 21:00:24.045 +01:00 [DBG] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) Wildcard detected, all requests with hosts will be allowed.
+2019-11-20 21:00:24.045 +01:00 [VRB] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) All hosts are allowed.
+2019-11-20 21:00:24.185 +01:00 [DBG] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 21:00:24.249 +01:00 [DBG] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) No candidates found for the request path '/swagger/index.html'
+2019-11-20 21:00:24.249 +01:00 [DBG] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) Request did not match any endpoints
+2019-11-20 21:00:24.547 +01:00 [INF] <iisexpress 26908:12> (80000102-0006-fd00-b63f-84710c7967bb~/swagger/index.html) Request finished in 509.3821ms 200 text/html
+2019-11-20 21:00:24.959 +01:00 [INF] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request starting HTTP/2.0 GET https://localhost:44397/swagger/v1/swagger.json  
+2019-11-20 21:00:24.959 +01:00 [VRB] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) All hosts are allowed.
+2019-11-20 21:00:24.960 +01:00 [DBG] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 21:00:24.960 +01:00 [DBG] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) No candidates found for the request path '/swagger/v1/swagger.json'
+2019-11-20 21:00:24.961 +01:00 [DBG] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request did not match any endpoints
+2019-11-20 21:00:25.233 +01:00 [INF] <iisexpress 26908:10> (80000040-0003-fb00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request finished in 274.1595ms 200 application/json;charset=utf-8
+2019-11-20 21:29:13.929 +01:00 [WRN] <iisexpress 548:1> (~) DEVelopment mode enabled!
+2019-11-20 21:29:13.992 +01:00 [WRN] <iisexpress 548:1> (~) Verbose logging mode enabled!
+2019-11-20 21:29:13.992 +01:00 [INF] <iisexpress 548:1> (~) Starting web host...
+2019-11-20 21:29:17.365 +01:00 [DBG] <iisexpress 548:1> (~) Hosting starting
+2019-11-20 21:29:17.490 +01:00 [INF] <iisexpress 548:1> (~) User profile is available. Using 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-20 21:29:17.496 +01:00 [DBG] <iisexpress 548:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ed52fe6-a53c-4b17-be2c-a8e61762168f.xml'.
+2019-11-20 21:29:17.545 +01:00 [DBG] <iisexpress 548:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-49bbe92b-b10d-4fee-b608-74620261f362.xml'.
+2019-11-20 21:29:17.546 +01:00 [DBG] <iisexpress 548:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-d7d53875-a572-46e5-a6ba-0dd48313d475.xml'.
+2019-11-20 21:29:17.550 +01:00 [DBG] <iisexpress 548:1> (~) Found key "2ed52fe6-a53c-4b17-be2c-a8e61762168f".
+2019-11-20 21:29:17.553 +01:00 [DBG] <iisexpress 548:1> (~) Found key "49bbe92b-b10d-4fee-b608-74620261f362".
+2019-11-20 21:29:17.554 +01:00 [DBG] <iisexpress 548:1> (~) Found key "d7d53875-a572-46e5-a6ba-0dd48313d475".
+2019-11-20 21:29:17.563 +01:00 [DBG] <iisexpress 548:1> (~) Considering key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" with expiration date "2020-01-25T12:19:45.6008182+00:00" as default key.
+2019-11-20 21:29:17.633 +01:00 [DBG] <iisexpress 548:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 21:29:17.633 +01:00 [DBG] <iisexpress 548:1> (~) Decrypting secret element using Windows DPAPI.
+2019-11-20 21:29:17.635 +01:00 [DBG] <iisexpress 548:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 21:29:17.637 +01:00 [DBG] <iisexpress 548:1> (~) Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-11-20 21:29:17.640 +01:00 [DBG] <iisexpress 548:1> (~) Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-11-20 21:29:17.643 +01:00 [DBG] <iisexpress 548:1> (~) Using key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" as the default key.
+2019-11-20 21:29:17.644 +01:00 [DBG] <iisexpress 548:1> (~) Key ring with default key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" was loaded during application startup.
+2019-11-20 21:29:17.729 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.782 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-11-20 21:29:17.783 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.799 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-11-20 21:29:17.799 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-11-20 21:29:17.799 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-11-20 21:29:17.804 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.804 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.804 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.826 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-11-20 21:29:17.895 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.895 +01:00 [DBG] <iisexpress 548:1> (~) Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 21:29:17.954 +01:00 [DBG] <iisexpress 548:1> (~) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-11-20 21:29:18.322 +01:00 [DBG] <iisexpress 548:1> (~) Hosting started
+2019-11-20 21:29:18.322 +01:00 [DBG] <iisexpress 548:1> (~) Loaded hosting startup assembly EcoHelper.Api
+2019-11-20 21:29:18.322 +01:00 [DBG] <iisexpress 548:1> (~) Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-11-20 21:29:18.452 +01:00 [INF] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) Request starting HTTP/2.0 GET https://localhost:44397/swagger/index.html  
+2019-11-20 21:29:18.456 +01:00 [DBG] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) Wildcard detected, all requests with hosts will be allowed.
+2019-11-20 21:29:18.457 +01:00 [VRB] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) All hosts are allowed.
+2019-11-20 21:29:18.552 +01:00 [DBG] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 21:29:18.595 +01:00 [DBG] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) No candidates found for the request path '/swagger/index.html'
+2019-11-20 21:29:18.595 +01:00 [DBG] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) Request did not match any endpoints
+2019-11-20 21:29:18.835 +01:00 [INF] <iisexpress 548:9> (8000005f-0001-ff00-b63f-84710c7967bb~/swagger/index.html) Request finished in 384.1551ms 200 text/html
+2019-11-20 21:29:19.040 +01:00 [INF] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request starting HTTP/2.0 GET https://localhost:44397/swagger/v1/swagger.json  
+2019-11-20 21:29:19.040 +01:00 [VRB] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) All hosts are allowed.
+2019-11-20 21:29:19.041 +01:00 [DBG] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 21:29:19.041 +01:00 [DBG] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) No candidates found for the request path '/swagger/v1/swagger.json'
+2019-11-20 21:29:19.041 +01:00 [DBG] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request did not match any endpoints
+2019-11-20 21:29:19.307 +01:00 [INF] <iisexpress 548:9> (8000002a-0004-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request finished in 266.9352ms 200 application/json;charset=utf-8
+2019-11-20 23:44:35.279 +01:00 [WRN] <iisexpress 17724:1> (~) DEVelopment mode enabled!
+2019-11-20 23:44:35.347 +01:00 [WRN] <iisexpress 17724:1> (~) Verbose logging mode enabled!
+2019-11-20 23:44:35.347 +01:00 [INF] <iisexpress 17724:1> (~) Starting web host...
+2019-11-20 23:44:38.713 +01:00 [DBG] <iisexpress 17724:1> (~) Hosting starting
+2019-11-20 23:44:38.833 +01:00 [INF] <iisexpress 17724:1> (~) User profile is available. Using 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-20 23:44:38.838 +01:00 [DBG] <iisexpress 17724:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ed52fe6-a53c-4b17-be2c-a8e61762168f.xml'.
+2019-11-20 23:44:38.887 +01:00 [DBG] <iisexpress 17724:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-49bbe92b-b10d-4fee-b608-74620261f362.xml'.
+2019-11-20 23:44:38.888 +01:00 [DBG] <iisexpress 17724:1> (~) Reading data from file 'C:\Users\m.kalisz\AppData\Local\ASP.NET\DataProtection-Keys\key-d7d53875-a572-46e5-a6ba-0dd48313d475.xml'.
+2019-11-20 23:44:38.893 +01:00 [DBG] <iisexpress 17724:1> (~) Found key "2ed52fe6-a53c-4b17-be2c-a8e61762168f".
+2019-11-20 23:44:38.898 +01:00 [DBG] <iisexpress 17724:1> (~) Found key "49bbe92b-b10d-4fee-b608-74620261f362".
+2019-11-20 23:44:38.898 +01:00 [DBG] <iisexpress 17724:1> (~) Found key "d7d53875-a572-46e5-a6ba-0dd48313d475".
+2019-11-20 23:44:38.908 +01:00 [DBG] <iisexpress 17724:1> (~) Considering key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" with expiration date "2020-01-25T12:19:45.6008182+00:00" as default key.
+2019-11-20 23:44:38.975 +01:00 [DBG] <iisexpress 17724:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 23:44:38.976 +01:00 [DBG] <iisexpress 17724:1> (~) Decrypting secret element using Windows DPAPI.
+2019-11-20 23:44:38.978 +01:00 [DBG] <iisexpress 17724:1> (~) Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-11-20 23:44:38.980 +01:00 [DBG] <iisexpress 17724:1> (~) Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-11-20 23:44:38.983 +01:00 [DBG] <iisexpress 17724:1> (~) Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-11-20 23:44:38.987 +01:00 [DBG] <iisexpress 17724:1> (~) Using key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" as the default key.
+2019-11-20 23:44:38.987 +01:00 [DBG] <iisexpress 17724:1> (~) Key ring with default key "2ed52fe6-a53c-4b17-be2c-a8e61762168f" was loaded during application startup.
+2019-11-20 23:44:39.084 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowInputFormatterExceptionMessages in type MvcJsonOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowCombiningAuthorizeFilters in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowBindingHeaderValuesToNonStringModelTypes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowValidatingTopLevelNodes in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch InputFormatterExceptionPolicy in type MvcOptions is using compatibility value "MalformedInputExceptions" for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch SuppressBindingUndefinedValueToEnumType in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch EnableEndpointRouting in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch MaxValidationDepth in type MvcOptions is using compatibility value 32 for version "Version_2_2"
+2019-11-20 23:44:39.135 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowShortCircuitingValidationWhenNoValidatorsArePresent in type MvcOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.152 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch SuppressMapClientErrors in type ApiBehaviorOptions is using default value false
+2019-11-20 23:44:39.152 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch SuppressUseValidationProblemDetailsForInvalidModelStateResponses in type ApiBehaviorOptions is using default value false
+2019-11-20 23:44:39.152 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowInferringBindingSourceForCollectionTypesAsFromQuery in type ApiBehaviorOptions is using default value false
+2019-11-20 23:44:39.155 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowAreas in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.155 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowMappingHeadRequestsToGetHandler in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.155 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowDefaultHandlingForOptionsRequests in type RazorPagesOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.176 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowRecompilingViewsOnFileChange in type RazorViewEngineOptions is using explicitly configured value true
+2019-11-20 23:44:39.244 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch SuppressTempDataAttributePrefix in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.244 +01:00 [DBG] <iisexpress 17724:1> (~) Compatibility switch AllowRenderingMaxLengthAttribute in type MvcViewOptions is using compatibility value true for version "Version_2_2"
+2019-11-20 23:44:39.297 +01:00 [DBG] <iisexpress 17724:1> (~) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-11-20 23:44:39.674 +01:00 [DBG] <iisexpress 17724:1> (~) Hosting started
+2019-11-20 23:44:39.675 +01:00 [DBG] <iisexpress 17724:1> (~) Loaded hosting startup assembly EcoHelper.Api
+2019-11-20 23:44:39.675 +01:00 [DBG] <iisexpress 17724:1> (~) Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-11-20 23:44:39.807 +01:00 [INF] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) Request starting HTTP/2.0 GET https://localhost:44397/swagger/index.html  
+2019-11-20 23:44:39.811 +01:00 [DBG] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) Wildcard detected, all requests with hosts will be allowed.
+2019-11-20 23:44:39.811 +01:00 [VRB] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) All hosts are allowed.
+2019-11-20 23:44:39.899 +01:00 [DBG] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 23:44:39.947 +01:00 [DBG] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) No candidates found for the request path '/swagger/index.html'
+2019-11-20 23:44:39.947 +01:00 [DBG] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) Request did not match any endpoints
+2019-11-20 23:44:40.179 +01:00 [INF] <iisexpress 17724:10> (8000006c-0002-ff00-b63f-84710c7967bb~/swagger/index.html) Request finished in 372.817ms 200 text/html
+2019-11-20 23:44:40.392 +01:00 [INF] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request starting HTTP/2.0 GET https://localhost:44397/swagger/v1/swagger.json  
+2019-11-20 23:44:40.392 +01:00 [VRB] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) All hosts are allowed.
+2019-11-20 23:44:40.394 +01:00 [DBG] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) AuthenticationScheme: Bearer was not authenticated.
+2019-11-20 23:44:40.394 +01:00 [DBG] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) No candidates found for the request path '/swagger/v1/swagger.json'
+2019-11-20 23:44:40.394 +01:00 [DBG] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request did not match any endpoints
+2019-11-20 23:44:40.647 +01:00 [INF] <iisexpress 17724:10> (80000032-0006-fe00-b63f-84710c7967bb~/swagger/v1/swagger.json) Request finished in 254.9609ms 200 application/json;charset=utf-8

@@ -32,13 +32,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EcoHelper.Api\EcoHelper.Api.csproj" />
     <ProjectReference Include="..\EcoHelper.Application.DTO\EcoHelper.Application.DTO.csproj" />
     <ProjectReference Include="..\EcoHelper.Application\EcoHelper.Application.csproj" />
     <ProjectReference Include="..\EcoHelper.Common\EcoHelper.Common.csproj" />
     <ProjectReference Include="..\EcoHelper.Domain\EcoHelper.Domain.csproj" />
     <ProjectReference Include="..\EcoHelper.Infrastructure\EcoHelper.Infrastructure.csproj" />
     <ProjectReference Include="..\EcoHelper.Persistence\EcoHelper.Persistence.csproj" />
-    <ProjectReference Include="..\EcoHelper\EcoHelper.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

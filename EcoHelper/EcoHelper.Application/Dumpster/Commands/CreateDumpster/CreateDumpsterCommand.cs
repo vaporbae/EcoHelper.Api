@@ -4,6 +4,7 @@
     using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Dumpster.Commands;
     using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using MediatR;
 
     public class CreateDumpsterCommand : IRequest
@@ -28,12 +29,12 @@
             {
                 CreateDumpsterRequest data = request.Data;
 
-                //var vResult = await new CreateDumpsterCommandValidator(_uow).ValidateAsync(data, cancellationToken);
+                var vResult = await new CreateDumpsterCommandValidator(_uow).ValidateAsync(data, cancellationToken);
 
-                //if (!vResult.IsValid)
-                //{
-                //    throw new ValidationException(vResult.Errors);
-                //}
+                if (!vResult.IsValid)
+                {
+                    throw new ValidationException(vResult.Errors);
+                }
 
 
                 var entityDumpster = new EcoHelper.Domain.Entities.Dumpster

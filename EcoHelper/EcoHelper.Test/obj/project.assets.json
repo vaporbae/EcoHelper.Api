@@ -12703,8 +12703,8 @@
     },
     "EcoHelper.Api/1.0.0": {
       "type": "project",
-      "path": "../EcoHelper/EcoHelper.Api.csproj",
-      "msbuildProject": "../EcoHelper/EcoHelper.Api.csproj"
+      "path": "../EcoHelper.Api/EcoHelper.Api.csproj",
+      "msbuildProject": "../EcoHelper.Api/EcoHelper.Api.csproj"
     },
     "EcoHelper.Application/1.0.0": {
       "type": "project",
@@ -12790,6 +12790,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj"
+            },
             "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
               "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
             },
@@ -12807,9 +12810,6 @@
             },
             "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj": {
               "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj"
-            },
-            "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper\\EcoHelper.Api.csproj": {
-              "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper\\EcoHelper.Api.csproj"
             }
           }
         }

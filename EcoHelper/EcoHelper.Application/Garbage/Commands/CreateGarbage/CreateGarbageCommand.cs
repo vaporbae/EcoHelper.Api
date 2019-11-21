@@ -29,12 +29,12 @@
             {
                 CreateGarbageRequest data = request.Data;
 
-                //var vResult = await new CreateGarbageCommandValidator(_uow).ValidateAsync(data, cancellationToken);
+                var vResult = await new CreateGarbageCommandValidator(_uow).ValidateAsync(data, cancellationToken);
 
-                //if (!vResult.IsValid)
-                //{
-                //    throw new ValidationException(vResult.Errors);
-                //}
+                if (!vResult.IsValid)
+                {
+                    throw new ValidationException(vResult.Errors);
+                }
 
 
                 var entityGarbage = new EcoHelper.Domain.Entities.Garbage

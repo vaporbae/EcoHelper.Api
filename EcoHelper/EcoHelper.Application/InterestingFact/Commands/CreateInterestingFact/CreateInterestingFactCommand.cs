@@ -29,12 +29,12 @@
             {
                 CreateInterestingFactRequest data = request.Data;
 
-                //var vResult = await new CreateInterestingFactCommandValidator(_uow).ValidateAsync(data, cancellationToken);
+                var vResult = await new CreateInterestingFactCommandValidator(_uow).ValidateAsync(data, cancellationToken);
 
-                //if (!vResult.IsValid)
-                //{
-                //    throw new ValidationException(vResult.Errors);
-                //}
+                if (!vResult.IsValid)
+                {
+                    throw new ValidationException(vResult.Errors);
+                }
 
 
                 var entityInterestingFact = new EcoHelper.Domain.Entities.InterestingFact
