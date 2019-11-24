@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20191124165334_BaseVersion.cs" />
+    <Compile Remove="Migrations\20191124165334_BaseVersion.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.0" />
     <PackageReference Include="MediatR" Version="7.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
