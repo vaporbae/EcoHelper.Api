@@ -1,0 +1,17 @@
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.deps.json
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Common.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.csprojAssemblyReference.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfo.cs
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.csproj.CopyComplete
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.pdb

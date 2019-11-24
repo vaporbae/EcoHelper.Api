@@ -1,0 +1,11 @@
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.deps.json
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\bin\Release\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\bin\Release\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.csprojAssemblyReference.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.AssemblyInfo.cs
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.csproj.CopyComplete
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application.DTO\obj\Release\netcoreapp2.2\EcoHelper.Application.DTO.pdb

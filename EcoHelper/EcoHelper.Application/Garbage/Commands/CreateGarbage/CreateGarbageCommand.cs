@@ -6,7 +6,6 @@
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
-    using System.Linq;
 
     public class CreateGarbageCommand : IRequest
     {
@@ -37,30 +36,16 @@
                     throw new ValidationException(vResult.Errors);
                 }
 
-                //ORYGINALNA BAZA NAJMANSKA
-                string[] lines = System.IO.File.ReadAllLines(@"C:\Users\m.kalisz\Downloads\Baza\bazaPudzianska.txt");
 
-                for(int i=1;i<lines.Length;i++)
+                var entityGarbage = new EcoHelper.Domain.Entities.Garbage
                 {
-                    if (i % 2 == 1)
-                    {
-                        var dumpsters = await _uow.DumpstersRepository.GetAllAsync();
-                        var dumpster = dumpsters.Where(x => x.Name.Equals(lines[i - 1])).First();
+                    Name = data.Name,
+                    DumpsterId = data.DumpsterId
+                };
 
-                        var entityGarbage = new EcoHelper.Domain.Entities.Garbage
-                        {
-                            Name = lines[i],
-                            DumpsterId = dumpster.Id
-                        };
+                _uow.GarbagesRepository.Add(entityGarbage);
 
-                        _uow.GarbagesRepository.Add(entityGarbage);
-
-                        await _uow.SaveChangesAsync(cancellationToken);
-                    }
-                }
-
-
-                
+                await _uow.SaveChangesAsync(cancellationToken);
 
                 return await Unit.Task;
             }

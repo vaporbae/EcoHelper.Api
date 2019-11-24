@@ -37,30 +37,17 @@
                     throw new ValidationException(vResult.Errors);
                 }
 
-                //ORYGINALNA BAZA NAJMANSKA
-                string[] lines = System.IO.File.ReadAllLines(@"C:\Users\m.kalisz\Downloads\Baza\baseDumpsterskoRafonixowa.txt");
 
-                // Display the file contents by using a foreach loop.
-                int i = 0;
-                foreach (string line in lines)
+                var entityDumpster = new EcoHelper.Domain.Entities.Dumpster
                 {
-                    i++;
-                    {
-                        var entityDumpster = new EcoHelper.Domain.Entities.Dumpster
-                        {
-                            Name = line,
-                            InterestingFacts = new List<Domain.Entities.InterestingFact>(),
-                            Garbages = new List<Domain.Entities.Garbage>()
-                        };
+                     Name = data.Name,
+                     InterestingFacts = new List<Domain.Entities.InterestingFact>(),
+                     Garbages = new List<Domain.Entities.Garbage>()
+                };
 
+                _uow.DumpstersRepository.Add(entityDumpster);
 
-                        _uow.DumpstersRepository.Add(entityDumpster);
-
-                        await _uow.SaveChangesAsync(cancellationToken);
-                    }
-                }
-
-               
+                await _uow.SaveChangesAsync(cancellationToken);
 
                 return await Unit.Task;
             }
