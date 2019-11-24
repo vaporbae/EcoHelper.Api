@@ -12,5 +12,6 @@ namespace EcoHelper.Application.Interfaces
         DbSet<Garbage> Garbages { get; set; }
         DbSet<InterestingFact> InterestingFacts { get; set; }
         DbSet<Question> Questions { get; set; }
+        DbSet<BaseVersion> BaseVersions { get; set; }
     }
 }

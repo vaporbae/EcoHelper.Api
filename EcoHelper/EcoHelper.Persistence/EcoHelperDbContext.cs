@@ -17,6 +17,7 @@
         public virtual DbSet<Garbage> Garbages { get; set; }
         public virtual DbSet<InterestingFact> InterestingFacts { get; set; }
         public virtual DbSet<Question> Questions { get; set; }
+        public virtual DbSet<BaseVersion> BaseVersions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

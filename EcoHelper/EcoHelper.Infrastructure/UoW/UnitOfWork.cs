@@ -40,6 +40,10 @@
         {
             get => Repository<QuestionsRepository, Question, int>();
         }
+        public IBaseVersionsRepository BaseVersionsRepository
+        {
+            get => Repository<BaseVersionsRepository, BaseVersion, int>();
+        }
 
         private readonly DbContext _context;
 
