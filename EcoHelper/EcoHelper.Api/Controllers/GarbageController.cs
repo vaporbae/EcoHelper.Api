@@ -14,7 +14,7 @@ namespace EcoHelper.Api.Controllers
 
     public class GarbageController : BaseController
     {
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/Garbage/create")]
         public async Task<IActionResult> CreateGarbage([FromBody]CreateGarbageRequest Garbage)
         {
@@ -23,7 +23,7 @@ namespace EcoHelper.Api.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/Garbage/delete")]
         public async Task<IActionResult> DeleteGarbage([FromBody]DeleteGarbageRequest Garbage)
         {
@@ -31,14 +31,11 @@ namespace EcoHelper.Api.Controllers
 
             return Ok(await Mediator.Send(command));
         }
-        [Authorize]
         [HttpGet("/api/Garbages")]
         public async Task<IActionResult> GetGarbages()
         {
             return Ok(await Mediator.Send(new GetGarbagesQuery()));
         }
-
-        [Authorize]
         [HttpGet("/api/Garbage/details/{id}")]
         public async Task<IActionResult> GetGarbageDetails(int id)
         {

@@ -14,7 +14,7 @@ namespace EcoHelper.Api.Controllers
 
     public class DumpsterController : BaseController
     {
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/Dumpster/create")]
         public async Task<IActionResult> CreateDumpster([FromBody]CreateDumpsterRequest Dumpster)
         {
@@ -23,7 +23,7 @@ namespace EcoHelper.Api.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/Dumpster/delete")]
         public async Task<IActionResult> DeleteDumpster([FromBody]DeleteDumpsterRequest Dumpster)
         {
@@ -31,14 +31,12 @@ namespace EcoHelper.Api.Controllers
 
             return Ok(await Mediator.Send(command));
         }
-        [Authorize]
         [HttpGet("/api/Dumpsters")]
         public async Task<IActionResult> GetDumpsters()
         {
             return Ok(await Mediator.Send(new GetDumpstersQuery()));
         }
 
-        [Authorize]
         [HttpGet("/api/Dumpster/details/{id}")]
         public async Task<IActionResult> GetDumpsterDetails(int id)
         {
