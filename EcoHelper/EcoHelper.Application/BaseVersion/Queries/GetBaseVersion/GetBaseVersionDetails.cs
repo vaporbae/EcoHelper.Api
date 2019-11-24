@@ -1,5 +1,6 @@
 ﻿namespace EcoHelper.Application.BaseVersion.Queries.GetAnswerDetails
 {
+    using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Answer.Queries;
@@ -30,7 +31,8 @@
             {
                 IdRequest data = request.Data;
 
-                var entity = await _uow.BaseVersionsRepository.GetByIdAsync(data.Id);
+                var entities = await _uow.BaseVersionsRepository.GetAllAsync();
+                var entity = entities.Where(x => x.Id.Equals(entities.Count() - 1)).First();
 
                 if (entity == null)
                 {

@@ -13,7 +13,7 @@
             RuleFor(x => x.Ver).NotEmpty().WithMessage("You must set Ver.");
             RuleFor(x => x.Ver).MustAsync(async (request, val, token) =>
             {
-
+                var entities = await uow.BaseVersionsRepository.GetAllAsync();
                 double p;
                 if (double.TryParse(val,out p))
                 {
