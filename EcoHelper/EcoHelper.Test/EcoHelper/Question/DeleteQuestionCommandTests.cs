@@ -29,14 +29,14 @@
             var command = new DeleteQuestionCommand(requestData);
 
 
-            var Question = await _uow.QuestionsRepository.GetByIdAsync(1);
+            var Question = await _uow.QuestionsRepository.GetByIdAsync(10);
             Question.ShouldNotBeNull();
 
             var commandHandler = new DeleteQuestionCommand.Handler(_uow);
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var deletedQuestion = await _uow.QuestionsRepository.GetByIdAsync(1);
+            var deletedQuestion = await _uow.QuestionsRepository.GetByIdAsync(10);
 
             deletedQuestion.ShouldBeNull();
         }

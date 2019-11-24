@@ -73,15 +73,15 @@
         {
             var requestData = new CreateGarbageRequest
             {
-                Name = "Dzien Dobry 123",
-                DumpsterId = 3
+                Name = "Dzien Dobry 123456789",
+                DumpsterId = 13
             };
             var command = new CreateGarbageCommand(requestData);
 
             var requestData2 = new CreateGarbageRequest
             {
-                Name = "Dzien Dobry 123",
-                DumpsterId = 3
+                Name = "Dzien Dobry 123456789",
+                DumpsterId = 13
             };
             var command2 = new CreateGarbageCommand(requestData2);
 

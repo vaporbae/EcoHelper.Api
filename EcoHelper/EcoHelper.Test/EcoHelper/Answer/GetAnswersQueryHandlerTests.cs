@@ -4,10 +4,10 @@
     using System.Threading.Tasks;
     using AutoMapper;
     using Shouldly;
-    using EcoHelper.Application.Answer.Queries.GetAnswers;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Answer.Queries;
-    using EcoHelper.Test.Infrastructure;
+    using Application.Answer.Queries.GetAnswers;
+    using Application.Interfaces.UoW;
+    using Application.DTO.Answer.Queries;
+    using Test.Infrastructure;
     using Xunit;
 
     [Collection("TestCollection")]

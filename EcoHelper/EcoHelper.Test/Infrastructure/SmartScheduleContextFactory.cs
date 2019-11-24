@@ -5,6 +5,7 @@
     using EcoHelper.Application.Helpers;
     using EcoHelper.Domain.Entities;
     using EcoHelper.Persistence;
+    using System.Collections.Generic;
 
     public static class EcoHelperContextFactory
     {
@@ -32,20 +33,29 @@
 
             context.Questions.AddRange(new[]
             {
-                new Question{Id=10, QuestionText="test 1"},
-                new Question{Id=11, QuestionText="test 2"}
+                new Question{Id=10, QuestionText="test 1", Answers = new List<Answer>()},
+                new Question{Id=11, QuestionText="test 2", Answers = new List<Answer>()},
+                new Question{Id=12, QuestionText="test 3", Answers = new List<Answer>()},
+                new Question{Id=13, QuestionText="test 4", Answers = new List<Answer>()},
+                new Question{Id=14, QuestionText="test 5", Answers = new List<Answer>()}
             });
 
             context.Answers.AddRange(new[]
             {
                 new Answer{Id=10, AnswerText="hababa", IsCorrect=false, QuestionId=11},
-                new Answer{Id=11, AnswerText="hababa1", IsCorrect=false, QuestionId=11}
+                new Answer{Id=11, AnswerText="hababa1", IsCorrect=false, QuestionId=11},
+                new Answer{Id=12, AnswerText="hababa", IsCorrect=false, QuestionId=11}
             });
 
             context.Dumpsters.AddRange(new[]
             {
-                new Dumpster{Id=10, Name="test1"},
-                new Dumpster{Id=11, Name="test2"}
+                new Dumpster{Id=10, Name="test1", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()},
+                new Dumpster{Id=11, Name="test2", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()},
+                new Dumpster{Id=13, Name="test3", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()},
+                new Dumpster{Id=14, Name="test4", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()},
+                new Dumpster{Id=15, Name="test5", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()}
+
+
             });
 
             context.Garbages.AddRangeAsync(new[]

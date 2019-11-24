@@ -25,7 +25,7 @@
 
                     if (result==null)
                     {
-                        return false;
+                        throw new ValidationException("This dumpster does not exist.");
                     }
 
                     return true;
@@ -43,7 +43,7 @@
                 else
                 {
                     var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
-                    var dumpsterFacts = result.InterestingFacts.ToList();
+                    var dumpsterFacts = result.InterestingFacts;
 
                     if (dumpsterFacts.Where(y=>y.Title.ToLower().Equals(val.Title.ToLower())).Count()>0)
                     {

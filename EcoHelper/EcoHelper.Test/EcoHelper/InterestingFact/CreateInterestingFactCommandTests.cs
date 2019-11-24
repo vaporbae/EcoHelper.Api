@@ -113,7 +113,7 @@
             {
                 Title = "Dzien Dobry 123",
                 Description = "Dzien Dobry 123",
-                DumpsterId = 3
+                DumpsterId = 14
             };
             var command = new CreateInterestingFactCommand(requestData);
 
@@ -121,7 +121,7 @@
             {
                 Title = "Dzien Dobry 123",
                 Description = "Dzien Dobry 123",
-                DumpsterId = 3
+                DumpsterId = 14
             };
             var command2 = new CreateInterestingFactCommand(requestData2);
 

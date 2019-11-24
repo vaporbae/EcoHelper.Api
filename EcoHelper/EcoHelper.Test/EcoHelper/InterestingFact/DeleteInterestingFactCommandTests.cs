@@ -28,14 +28,14 @@
             var command = new DeleteInterestingFactCommand(requestData);
 
 
-            var InterestingFact = await _uow.InterestingFactsRepository.GetByIdAsync(1);
+            var InterestingFact = await _uow.InterestingFactsRepository.GetByIdAsync(10);
             InterestingFact.ShouldNotBeNull();
 
             var commandHandler = new DeleteInterestingFactCommand.Handler(_uow);
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var deletedInterestingFact = await _uow.InterestingFactsRepository.GetByIdAsync(1);
+            var deletedInterestingFact = await _uow.InterestingFactsRepository.GetByIdAsync(10);
 
             deletedInterestingFact.ShouldBeNull();
         }

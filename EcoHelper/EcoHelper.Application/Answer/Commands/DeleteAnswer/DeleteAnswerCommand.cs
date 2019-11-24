@@ -10,18 +10,12 @@
 
     public class DeleteAnswerCommand : IRequest
     {
-        private IdRequest answer;
 
         public DeleteAnswerRequest Data { get; set; }
 
         public DeleteAnswerCommand(DeleteAnswerRequest data)
         {
             this.Data = data;
-        }
-
-        public DeleteAnswerCommand(IdRequest answer)
-        {
-            this.answer = answer;
         }
 
         public class Handler : IRequestHandler<DeleteAnswerCommand, Unit>

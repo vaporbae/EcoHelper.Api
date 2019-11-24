@@ -13,7 +13,7 @@
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory());
 
-            configuration.AddJsonFile(GlobalConfig.CONNECTION_STRING_NAME);
+            configuration.AddJsonFile(GlobalConfig.DEV_APPSETTINGS);
 
             var buildedConfiguration = configuration.AddEnvironmentVariables()
                                                     .Build();

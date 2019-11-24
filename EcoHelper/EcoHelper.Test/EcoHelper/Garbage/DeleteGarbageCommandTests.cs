@@ -28,14 +28,14 @@
             var command = new DeleteGarbageCommand(requestData);
 
 
-            var Garbage = await _uow.GarbagesRepository.GetByIdAsync(1);
+            var Garbage = await _uow.GarbagesRepository.GetByIdAsync(10);
             Garbage.ShouldNotBeNull();
 
             var commandHandler = new DeleteGarbageCommand.Handler(_uow);
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var deletedGarbage = await _uow.GarbagesRepository.GetByIdAsync(1);
+            var deletedGarbage = await _uow.GarbagesRepository.GetByIdAsync(10);
 
             deletedGarbage.ShouldBeNull();
         }

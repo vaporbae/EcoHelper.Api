@@ -9,6 +9,7 @@
     using EcoHelper.Test.Infrastructure;
     using Xunit;
     using EcoHelper.Application.Answers.Commands.DeleteAnswer;
+    using EcoHelper.Application.DTO.Answer.Commands;
 
     [Collection("TestCollection")]
     public class DeleteAnswerCommandTests
@@ -23,18 +24,18 @@
         [Fact]
         public async Task DeleteAnswerShouldDeleteAnswerFromDbContext()
         {
-            var requestData = new IdRequest(10);
+            var requestData = new DeleteAnswerRequest { Id = 12 };
             var command = new DeleteAnswerCommand(requestData);
 
 
-            var Answer = await _uow.AnswersRepository.GetByIdAsync(1);
+            var Answer = await _uow.AnswersRepository.GetByIdAsync(12);
             Answer.ShouldNotBeNull();
 
             var commandHandler = new DeleteAnswerCommand.Handler(_uow);
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var deletedAnswer = await _uow.AnswersRepository.GetByIdAsync(1);
+            var deletedAnswer = await _uow.AnswersRepository.GetByIdAsync(12);
 
             deletedAnswer.ShouldBeNull();
         }
@@ -42,7 +43,7 @@
         [Fact]
         public async Task DeleteAnswerWithNotExistingIdShouldNotDeleteAnswerFromDbContext()
         {
-            var requestData = new IdRequest(2812942);
+            var requestData = new DeleteAnswerRequest { Id = 2372178 };
             var command = new DeleteAnswerCommand(requestData);
 
             var commandHandler = new DeleteAnswerCommand.Handler(_uow);

@@ -16,7 +16,7 @@
 
                 if (result == null)
                 {
-                    return false;
+                    throw new ValidationException("This question does not exist.");
                 }
 
                 return true;

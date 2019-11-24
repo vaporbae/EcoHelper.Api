@@ -1,5 +1,6 @@
 ﻿namespace EcoHelper.Application.Dumpster.Commands.CreateDumpster
 {
+    using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Dumpster.Commands;
@@ -39,7 +40,9 @@
 
                 var entityDumpster = new EcoHelper.Domain.Entities.Dumpster
                 {
-                     Name = data.Name
+                    Name = data.Name,
+                    InterestingFacts = new List<Domain.Entities.InterestingFact>(),
+                    Garbages = new List<Domain.Entities.Garbage>()
                 };
 
                 _uow.DumpstersRepository.Add(entityDumpster);

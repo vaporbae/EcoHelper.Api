@@ -10,18 +10,12 @@
 
     public class DeleteDumpsterCommand : IRequest
     {
-        private IdRequest dumpster;
 
         public DeleteDumpsterRequest Data { get; set; }
 
         public DeleteDumpsterCommand(DeleteDumpsterRequest data)
         {
             this.Data = data;
-        }
-
-        public DeleteDumpsterCommand(IdRequest dumpster)
-        {
-            this.dumpster = dumpster;
         }
 
         public class Handler : IRequestHandler<DeleteDumpsterCommand, Unit>

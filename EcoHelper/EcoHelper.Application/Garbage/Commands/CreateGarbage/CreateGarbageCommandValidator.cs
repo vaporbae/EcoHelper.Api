@@ -16,7 +16,7 @@
 
                 if (result == null)
                 {
-                    return false;
+                    throw new ValidationException("This dumpster does not exist.");
                 }
 
                 return true;
