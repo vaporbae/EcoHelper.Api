@@ -13,11 +13,11 @@
     using EcoHelper.Application.Exceptions;
 
     [Collection("TestCollection")]
-    public class GetAnswerDetailQueryHandlerTests
+    public class GetBaseVersionDetailQueryHandlerTests
     {
         private readonly IUnitOfWork _uow;
 
-        public GetAnswerDetailQueryHandlerTests(TestFixture fixture)
+        public GetBaseVersionDetailQueryHandlerTests(TestFixture fixture)
         {
             _uow = fixture.UoW;
         }

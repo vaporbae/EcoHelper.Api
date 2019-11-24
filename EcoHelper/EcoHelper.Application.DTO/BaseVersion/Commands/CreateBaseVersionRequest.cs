@@ -2,6 +2,6 @@
 {
     public class CreateBaseVersionRequest
     {
-        public string Ver { get; set; }
+        public double Ver { get; set; }
     }
 }

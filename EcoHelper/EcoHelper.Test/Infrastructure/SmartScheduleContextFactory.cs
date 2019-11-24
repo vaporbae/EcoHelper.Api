@@ -47,6 +47,13 @@
                 new Answer{Id=12, AnswerText="hababa", IsCorrect=false, QuestionId=11}
             });
 
+            context.BaseVersions.AddRange(new[]
+           {
+                new BaseVersion{Id=10, Ver=1.01},
+                new BaseVersion{Id=11, Ver=1.02},
+                new BaseVersion{Id=12, Ver=1.03}
+            });
+
             context.Dumpsters.AddRange(new[]
             {
                 new Dumpster{Id=10, Name="test1", InterestingFacts=new List<InterestingFact>(), Garbages=new List<Garbage>()},

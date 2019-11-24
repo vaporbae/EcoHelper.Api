@@ -9,7 +9,7 @@
     public class GetBaseVersionDetailResponse
     {
         public int Id { get; set; }
-        public string Ver { get; set; }
+        public double Ver { get; set; }
 
         public static Expression<Func<Domain.Entities.BaseVersion, GetBaseVersionDetailResponse>> Projection
         {

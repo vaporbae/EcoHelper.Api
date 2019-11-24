@@ -4,6 +4,6 @@
 
     public class BaseVersion : BaseEntity<int>
     {
-        public string Ver { get; set; }
+        public double Ver { get; set; }
     }
 }

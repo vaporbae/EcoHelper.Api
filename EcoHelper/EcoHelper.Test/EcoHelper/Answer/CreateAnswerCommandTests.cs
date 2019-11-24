@@ -10,11 +10,11 @@
     using Xunit;
 
     [Collection("TestCollection")]
-    public class CreateAnswerCommandTests
+    public class CreateBaseVersionCommandTests
     {
         private readonly IUnitOfWork _uow;
 
-        public CreateAnswerCommandTests(TestFixture fixture)
+        public CreateBaseVersionCommandTests(TestFixture fixture)
         {
             _uow = fixture.UoW;
         }

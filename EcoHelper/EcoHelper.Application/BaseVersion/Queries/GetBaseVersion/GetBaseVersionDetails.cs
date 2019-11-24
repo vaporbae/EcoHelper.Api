@@ -32,7 +32,12 @@
                 IdRequest data = request.Data;
 
                 var entities = await _uow.BaseVersionsRepository.GetAllAsync();
-                var entity = entities.Where(x => x.Id.Equals(entities.Count() - 1)).First();
+                var entities2 = entities.ToList();
+                Domain.Entities.BaseVersion entity = null;
+                if (entities.Count() > 0)
+                {
+                    entity = entities2[entities.Count() - 1];
+                }
 
                 if (entity == null)
                 {
