@@ -13,3 +13,18 @@ C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.App
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.csproj.CopyComplete
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.dll
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Application.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Application.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Common.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\bin\Release\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.csprojAssemblyReference.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Application\obj\Release\netcoreapp2.2\EcoHelper.Application.pdb

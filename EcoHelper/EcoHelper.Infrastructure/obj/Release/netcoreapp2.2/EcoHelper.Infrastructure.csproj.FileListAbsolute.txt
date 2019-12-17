@@ -15,3 +15,20 @@ C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Inf
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.csproj.CopyComplete
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.dll
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Infrastructure.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Common.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\bin\Release\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.csprojAssemblyReference.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Infrastructure\obj\Release\netcoreapp2.2\EcoHelper.Infrastructure.pdb

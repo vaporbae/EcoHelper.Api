@@ -78,6 +78,12 @@
                 new InterestingFact{Id=11, Title="test12", Description="test1234" }
             });
 
+            context.Suggestions.AddRange(new[]
+           {
+                new Suggestion{Id=10, Dumpster="test 10", Garbage="test 10" },
+                new Suggestion{Id=11, Dumpster="test 11", Garbage="test 11" }
+            });
+
 
             context.SaveChanges();
 
