@@ -56,3 +56,32 @@ C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Api
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.csproj.CopyComplete
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.dll
 C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Api.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Api.runtimeconfig.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Api.runtimeconfig.dev.json
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Api.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Api.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Application.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Common.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Domain.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Persistence.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Infrastructure.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Persistence.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Application.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Application.DTO.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\bin\Debug\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.csprojAssemblyReference.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.RazorAssemblyInfo.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.RazorAssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.RazorTargetAssemblyInfo.cache
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.dll
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Api\obj\Debug\netcoreapp2.2\EcoHelper.Api.pdb

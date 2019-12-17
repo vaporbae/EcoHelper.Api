@@ -24,18 +24,18 @@
         [Fact]
         public async Task DeleteAnswerShouldDeleteAnswerFromDbContext()
         {
-            var requestData = new DeleteAnswerRequest { Id = 12 };
+            var requestData = new DeleteAnswerRequest { Id = 13 };
             var command = new DeleteAnswerCommand(requestData);
 
 
-            var Answer = await _uow.AnswersRepository.GetByIdAsync(12);
+            var Answer = await _uow.AnswersRepository.GetByIdAsync(13);
             Answer.ShouldNotBeNull();
 
             var commandHandler = new DeleteAnswerCommand.Handler(_uow);
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var deletedAnswer = await _uow.AnswersRepository.GetByIdAsync(12);
+            var deletedAnswer = await _uow.AnswersRepository.GetByIdAsync(13);
 
             deletedAnswer.ShouldBeNull();
         }

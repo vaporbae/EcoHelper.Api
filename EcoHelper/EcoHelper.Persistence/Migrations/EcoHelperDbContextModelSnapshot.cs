@@ -137,6 +137,25 @@ namespace EcoHelper.Persistence.Migrations
                     b.ToTable("Questions");
                 });
 
+            modelBuilder.Entity("EcoHelper.Domain.Entities.Suggestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Created");
+
+                    b.Property<string>("Dumpster");
+
+                    b.Property<string>("Garbage");
+
+                    b.Property<DateTime>("Modified");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Suggestions");
+                });
+
             modelBuilder.Entity("EcoHelper.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")

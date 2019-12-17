@@ -32,12 +32,11 @@
 
             var commandHandler = new CreateSuggestionCommand.Handler(_uow);
 
-            var Suggestions = await _uow.SuggestionsRepository.GetAllAsync();
+            await commandHandler.Handle(command, CancellationToken.None);
 
-            var s = Suggestions.Last();
+            var Suggestion = await _uow.SuggestionsRepository.GetFirstAsync(x => x.Dumpster.Equals(requestData.Dumpster) && x.Garbage.Equals(requestData.Garbage));
 
-            s.Dumpster.ShouldBe(requestData.Dumpster);
-            s.Garbage.ShouldBe(requestData.Garbage);
+            Suggestion.ShouldNotBeNull();
         }
 
         [Fact]
@@ -46,7 +45,7 @@
             var requestData = new CreateSuggestionRequest
             {
                 Dumpster = "",
-                Garbage = "Dumpster Test 123"
+                Garbage = "Garbage Test 123"
             };
             var command = new CreateSuggestionCommand(requestData);
 

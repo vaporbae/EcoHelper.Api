@@ -9,7 +9,6 @@ C:\Users\m.kalisz\Documents\Visual Studio 2019\EcoHelper\EcoHelper\EcoHelper.Dom
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\bin\Release\netcoreapp2.2\EcoHelper.Domain.deps.json
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\bin\Release\netcoreapp2.2\EcoHelper.Domain.dll
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\bin\Release\netcoreapp2.2\EcoHelper.Domain.pdb
-C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Release\netcoreapp2.2\EcoHelper.Domain.csprojAssemblyReference.cache
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Release\netcoreapp2.2\EcoHelper.Domain.AssemblyInfoInputs.cache
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Release\netcoreapp2.2\EcoHelper.Domain.AssemblyInfo.cs
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Release\netcoreapp2.2\EcoHelper.Domain.dll

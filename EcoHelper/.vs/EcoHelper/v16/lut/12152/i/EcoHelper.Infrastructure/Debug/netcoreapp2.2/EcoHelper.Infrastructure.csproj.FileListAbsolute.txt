@@ -1,0 +1,7 @@
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.dll
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.csprojAssemblyReference.cache
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Infrastructure\Debug\netcoreapp2.2\EcoHelper.Infrastructure.dll

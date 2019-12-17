@@ -25,7 +25,7 @@
             var requestData = new CreateGarbageRequest
             {
                 Name = "Dzien Dobry 123",
-                DumpsterId = 1
+                DumpsterId = 13
             };
             var command = new CreateGarbageCommand(requestData);
 

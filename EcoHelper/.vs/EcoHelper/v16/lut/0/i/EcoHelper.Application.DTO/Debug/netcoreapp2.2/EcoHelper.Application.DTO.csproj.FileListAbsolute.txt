@@ -1,0 +1,7 @@
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.dll
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.csprojAssemblyReference.cache
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Application.DTO\Debug\netcoreapp2.2\EcoHelper.Application.DTO.dll

@@ -44,7 +44,8 @@
             {
                 new Answer{Id=10, AnswerText="hababa", IsCorrect=false, QuestionId=11},
                 new Answer{Id=11, AnswerText="hababa1", IsCorrect=false, QuestionId=11},
-                new Answer{Id=12, AnswerText="hababa", IsCorrect=false, QuestionId=11}
+                new Answer{Id=12, AnswerText="hababa2", IsCorrect=false, QuestionId=11},
+                new Answer{Id=13, AnswerText="hababa3", IsCorrect=false, QuestionId=11}
             });
 
             context.BaseVersions.AddRange(new[]
