@@ -3478,11 +3478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
+      "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
       "projectName": "EcoHelper.Application.DTO",
-      "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
+      "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
       "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\obj\\",
+      "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3503,8 +3503,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
-              "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
+            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
+              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
             }
           }
         }
@@ -3539,7 +3539,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

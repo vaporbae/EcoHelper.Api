@@ -16,6 +16,7 @@
         IInterestingFactsRepository InterestingFactsRepository { get; }
         IQuestionsRepository QuestionsRepository { get; }
         IBaseVersionsRepository BaseVersionsRepository { get; }
+        ISuggestionsRepository SuggestionsRepository { get; }
 
         void Dispose(bool disposing);
 

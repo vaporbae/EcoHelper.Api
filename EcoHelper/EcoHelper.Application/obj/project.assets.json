@@ -9175,11 +9175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
+      "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
       "projectName": "EcoHelper.Application",
-      "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
+      "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
       "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application\\obj\\",
+      "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -9200,11 +9200,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
-              "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
+            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
+              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
             },
-            "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
-              "projectPath": "C:\\Users\\m.kalisz\\Documents\\Visual Studio 2019\\EcoHelper\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
+            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
             }
           }
         }
@@ -9259,7 +9259,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

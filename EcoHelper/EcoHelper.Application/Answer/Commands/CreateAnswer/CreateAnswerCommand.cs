@@ -29,12 +29,12 @@
             {
                 CreateAnswerRequest data = request.Data;
 
-                var vResult = await new CreateAnswerCommandValidator(_uow).ValidateAsync(data, cancellationToken);
+                //var vResult = await new CreateAnswerCommandValidator(_uow).ValidateAsync(data, cancellationToken);
 
-                if (!vResult.IsValid)
-                {
-                    throw new ValidationException(vResult.Errors);
-                }
+                //if (!vResult.IsValid)
+                //{
+                //    throw new ValidationException(vResult.Errors);
+                //}
 
 
                 var entityAnswer = new EcoHelper.Domain.Entities.Answer

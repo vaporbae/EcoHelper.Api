@@ -45,6 +45,11 @@
             get => Repository<BaseVersionsRepository, BaseVersion, int>();
         }
 
+        public ISuggestionsRepository SuggestionsRepository
+        {
+            get => Repository<SuggestionsRepository, Suggestion, int>();
+        }
+
         private readonly DbContext _context;
 
         private bool _disposed;

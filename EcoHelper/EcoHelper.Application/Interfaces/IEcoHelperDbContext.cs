@@ -13,5 +13,6 @@ namespace EcoHelper.Application.Interfaces
         DbSet<InterestingFact> InterestingFacts { get; set; }
         DbSet<Question> Questions { get; set; }
         DbSet<BaseVersion> BaseVersions { get; set; }
+        DbSet<Suggestion> Suggestions { get; set; }
     }
 }

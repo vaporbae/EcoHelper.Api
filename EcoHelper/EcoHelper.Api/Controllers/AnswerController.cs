@@ -14,7 +14,7 @@ namespace EcoHelper.Api.Controllers
 
     public class AnswerController :BaseController
     {
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/answer/create")]
         public async Task<IActionResult> CreateAnswer([FromBody]CreateAnswerRequest answer)
         {
@@ -23,7 +23,7 @@ namespace EcoHelper.Api.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost("/api/answer/delete")]
         public async Task<IActionResult> DeleteAnswer([FromBody]DeleteAnswerRequest Answer)
         {
@@ -31,14 +31,12 @@ namespace EcoHelper.Api.Controllers
 
             return Ok(await Mediator.Send(command));
         }
-        [Authorize]
         [HttpGet("/api/Answers")]
         public async Task<IActionResult> GetAnswers()
         {
             return Ok(await Mediator.Send(new GetAnswersQuery()));
         }
 
-        [Authorize]
         [HttpGet("/api/Answer/details/{id}")]
         public async Task<IActionResult> GetAnswerDetails(int id)
         {
