@@ -12,21 +12,24 @@
     using Xunit;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Domain.Entities;
+    using AutoMapper;
 
     [Collection("TestCollection")]
     public class GetDumpsterDetailQueryHandlerTests
     {
         private readonly IUnitOfWork _uow;
+        private readonly IMapper _mapper;
 
         public GetDumpsterDetailQueryHandlerTests(TestFixture fixture)
         {
             _uow = fixture.UoW;
+            _mapper = fixture.Mapper;
         }
 
         [Fact]
         public async Task GetDumpsterDetail()
         {
-            var sut = new GetDumpsterDetailsQuery.Handler(_uow);
+            var sut = new GetDumpsterDetailsQuery.Handler(_uow, _mapper);
 
             var requestData = new IdRequest(11);
             var result = await sut.Handle(new GetDumpsterDetailsQuery(requestData), CancellationToken.None);
@@ -39,7 +42,7 @@
         [Fact]
         public async Task GetDumpsterDetailForNotExistingIdShouldThrowException()
         {
-            var sut = new GetDumpsterDetailsQuery.Handler(_uow);
+            var sut = new GetDumpsterDetailsQuery.Handler(_uow, _mapper);
 
             var requestData = new IdRequest(2389493);
             var result = await sut.Handle(new GetDumpsterDetailsQuery(requestData), CancellationToken.None).ShouldThrowAsync<NotFoundException>();

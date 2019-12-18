@@ -2,6 +2,7 @@
 {
     using System.Threading;
     using System.Threading.Tasks;
+    using AutoMapper;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.Dumpster.Queries;
     using EcoHelper.Application.Exceptions;
@@ -20,10 +21,12 @@
         public class Handler : IRequestHandler<GetDumpsterDetailsQuery, GetDumpsterDetailResponse>
         {
             private readonly IUnitOfWork _uow;
+            private readonly IMapper _mapper;
 
-            public Handler(IUnitOfWork uow)
+            public Handler(IUnitOfWork uow, IMapper mapper)
             {
                 _uow = uow;
+                _mapper = mapper;
             }
 
             public async Task<GetDumpsterDetailResponse> Handle(GetDumpsterDetailsQuery request, CancellationToken cancellationToken)
@@ -37,7 +40,7 @@
                     throw new NotFoundException(nameof(EcoHelper.Domain.Entities.Dumpster), data.Id);
                 }
 
-                return GetDumpsterDetailResponse.Create(entity);
+                return _mapper.Map<GetDumpsterDetailResponse>(entity);
             }
         }
     }

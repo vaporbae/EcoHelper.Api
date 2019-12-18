@@ -1,33 +1,17 @@
 ﻿namespace EcoHelper.Application.DTO.Suggestion.Queries
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Linq.Expressions;
-    using EcoHelper.Application.DTO.Answer.Commands;
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Interfaces.Mapping;
 
-    public class GetSuggestionDetailResponse
+    public class GetSuggestionDetailResponse : IHaveCustomMapping
     {
         public int Id { get; set; }
         public string Dumpster { get; set; }
         public string Garbage { get; set; }
 
-        public static Expression<Func<Domain.Entities.Suggestion, GetSuggestionDetailResponse>> Projection
+        void IHaveCustomMapping.CreateMappings(Profile configuration)
         {
-            get
-            {
-                return Suggestion => new GetSuggestionDetailResponse
-                {
-                    Id = Suggestion.Id,
-                    Dumpster = Suggestion.Dumpster,
-                    Garbage = Suggestion.Garbage
-                };
-            }
-        }
-
-        public static GetSuggestionDetailResponse Create(Domain.Entities.Suggestion Suggestion)
-        {
-            return Projection.Compile().Invoke(Suggestion);
+            configuration.CreateMap<Domain.Entities.Suggestion, GetSuggestionDetailResponse>();
         }
     }
 }

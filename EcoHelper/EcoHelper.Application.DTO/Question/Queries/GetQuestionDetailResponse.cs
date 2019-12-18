@@ -1,33 +1,23 @@
 ﻿namespace EcoHelper.Application.DTO.Question.Queries
 {
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Answer.Queries;
+    using EcoHelper.Application.DTO.Interfaces.Mapping;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
 
-    public class GetQuestionDetailResponse
+    public class GetQuestionDetailResponse : IHaveCustomMapping
     {
         public int Id { get; set; }
         public string QuestionText { get; set; }
 
         public IList<Domain.Entities.Answer> Answers { get; set; }
 
-        public static Expression<Func<Domain.Entities.Question, GetQuestionDetailResponse>> Projection
+        void IHaveCustomMapping.CreateMappings(Profile configuration)
         {
-            get
-            {
-                return Question => new GetQuestionDetailResponse
-                {
-                    Id = Question.Id,
-                    QuestionText = Question.QuestionText,
-                    Answers = Question.Answers.ToList()
-                };
-            }
-        }
-
-        public static GetQuestionDetailResponse Create(Domain.Entities.Question Question)
-        {
-            return Projection.Compile().Invoke(Question);
+            configuration.CreateMap<Domain.Entities.Question, GetQuestionDetailResponse>();
         }
     }
 }

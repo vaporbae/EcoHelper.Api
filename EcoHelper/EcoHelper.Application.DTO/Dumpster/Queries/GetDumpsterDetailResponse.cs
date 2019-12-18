@@ -4,10 +4,12 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
+    using AutoMapper;
     using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.DTO.Garbage.Queries;
+    using EcoHelper.Application.DTO.Interfaces.Mapping;
 
-    public class GetDumpsterDetailResponse
+    public class GetDumpsterDetailResponse : IHaveCustomMapping
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -15,23 +17,9 @@
         public IList<Domain.Entities.Garbage> Garbages { get; set; }
         public IList<Domain.Entities.InterestingFact> InterestingFacts { get; set; }
 
-        public static Expression<Func<Domain.Entities.Dumpster, GetDumpsterDetailResponse>> Projection
+        void IHaveCustomMapping.CreateMappings(Profile configuration)
         {
-            get
-            {
-                return Dumpster => new GetDumpsterDetailResponse
-                {
-                    Id = Dumpster.Id,
-                    Name = Dumpster.Name,
-                    Garbages = Dumpster.Garbages.ToList(),
-                    InterestingFacts = Dumpster.InterestingFacts.ToList()
-                };
-            }
-        }
-
-        public static GetDumpsterDetailResponse Create(Domain.Entities.Dumpster Dumpster)
-        {
-            return Projection.Compile().Invoke(Dumpster);
+            configuration.CreateMap<Domain.Entities.Dumpster, GetDumpsterDetailResponse>();
         }
     }
 }

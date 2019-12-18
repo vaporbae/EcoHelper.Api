@@ -18,11 +18,7 @@
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.Answer, AnswerLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.AnswerText, opt => opt.MapFrom(c => c.AnswerText))
-                    .ForMember(cDTO => cDTO.IsCorrect, opt => opt.MapFrom(c => c.IsCorrect))
-                    .ForMember(cDTO => cDTO.QuestionId, opt => opt.MapFrom(c => c.QuestionId));
+                configuration.CreateMap<Domain.Entities.Answer, AnswerLookupModel>();
             }
         }
     }

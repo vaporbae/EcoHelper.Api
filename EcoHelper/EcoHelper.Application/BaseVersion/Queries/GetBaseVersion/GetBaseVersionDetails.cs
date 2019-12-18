@@ -3,6 +3,7 @@
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
+    using AutoMapper;
     using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.Exceptions;
@@ -21,10 +22,12 @@
         public class Handler : IRequestHandler<GetBaseVersionDetailsQuery, GetBaseVersionDetailResponse>
         {
             private readonly IUnitOfWork _uow;
+            private readonly IMapper _mapper;
 
-            public Handler(IUnitOfWork uow)
+            public Handler(IUnitOfWork uow, IMapper mapper)
             {
                 _uow = uow;
+                _mapper = mapper;
             }
 
             public async Task<GetBaseVersionDetailResponse> Handle(GetBaseVersionDetailsQuery request, CancellationToken cancellationToken)
@@ -44,7 +47,7 @@
                     throw new NotFoundException(nameof(EcoHelper.Domain.Entities.BaseVersion), data.Id);
                 }
 
-                return GetBaseVersionDetailResponse.Create(entity);
+                return _mapper.Map<GetBaseVersionDetailResponse>(entity);
             }
         }
     }

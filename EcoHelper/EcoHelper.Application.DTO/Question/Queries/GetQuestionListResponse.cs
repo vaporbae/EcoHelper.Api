@@ -14,14 +14,11 @@
             public int Id { get; set; }
             public string QuestionText { get; set; }
 
-            public List<Domain.Entities.Answer> Answers { get; set; }
+            public IList<Domain.Entities.Answer> Answers { get; set; }
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.Question, QuestionLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.QuestionText, opt => opt.MapFrom(c => c.QuestionText))
-                    .ForMember(cDTO => cDTO.Answers, opt => opt.MapFrom(c => c.Answers.ToList()));
+                configuration.CreateMap<Domain.Entities.Question, QuestionLookupModel>();
             }
         }
     }

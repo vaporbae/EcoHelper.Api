@@ -17,10 +17,7 @@
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.Suggestion, SuggestionLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.Dumpster, opt => opt.MapFrom(c => c.Dumpster))
-                    .ForMember(cDTO => cDTO.Garbage, opt => opt.MapFrom(c => c.Garbage));
+                configuration.CreateMap<Domain.Entities.Suggestion, SuggestionLookupModel>();
             }
         }
     }

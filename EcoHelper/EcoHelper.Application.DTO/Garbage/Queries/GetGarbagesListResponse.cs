@@ -17,10 +17,7 @@
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.Garbage, GarbageLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.Name, opt => opt.MapFrom(c => c.Name))
-                    .ForMember(cDTO => cDTO.DumpsterId, opt => opt.MapFrom(c => c.DumpsterId));
+                configuration.CreateMap<Domain.Entities.Garbage, GarbageLookupModel>();
             }
         }
     }

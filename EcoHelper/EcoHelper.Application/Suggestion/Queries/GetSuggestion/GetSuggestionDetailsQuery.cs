@@ -7,6 +7,7 @@
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using AutoMapper;
 
     public class GetSuggestionDetailsQuery : IRequest<GetSuggestionDetailResponse>
     {
@@ -20,10 +21,12 @@
         public class Handler : IRequestHandler<GetSuggestionDetailsQuery, GetSuggestionDetailResponse>
         {
             private readonly IUnitOfWork _uow;
+            private readonly IMapper _mapper;
 
-            public Handler(IUnitOfWork uow)
+            public Handler(IUnitOfWork uow, IMapper mapper)
             {
                 _uow = uow;
+                _mapper = mapper;
             }
 
             public async Task<GetSuggestionDetailResponse> Handle(GetSuggestionDetailsQuery request, CancellationToken cancellationToken)
@@ -34,10 +37,10 @@
 
                 if (entity == null)
                 {
-                    throw new NotFoundException(nameof(EcoHelper.Domain.Entities.Suggestion), data.Id);
+                    throw new NotFoundException(nameof(Domain.Entities.Suggestion), data.Id);
                 }
 
-                return GetSuggestionDetailResponse.Create(entity);
+                return _mapper.Map<GetSuggestionDetailResponse>(entity);
             }
         }
     }

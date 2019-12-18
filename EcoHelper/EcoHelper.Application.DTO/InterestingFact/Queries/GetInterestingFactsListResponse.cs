@@ -18,11 +18,7 @@
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.InterestingFact, InterestingFactLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.Title, opt => opt.MapFrom(c => c.Title))
-                    .ForMember(cDTO => cDTO.Description, opt => opt.MapFrom(c => c.Description))
-                    .ForMember(cDTO => cDTO.DumpsterId, opt => opt.MapFrom(c => c.DumpsterId));
+                configuration.CreateMap<Domain.Entities.InterestingFact, InterestingFactLookupModel>();
             }
         }
     }

@@ -83,9 +83,9 @@
             return await _dbSet.FirstOrDefaultAsync(cancellationToken);
         }
 
-        public virtual Task<TEntity> GetByIdAsync(TId id)
+        public virtual async Task<TEntity> GetByIdAsync(TId id)
         {
-            return _dbSet.FindAsync(id);
+            return await _dbSet.FindAsync(id);
             //return _dbSet.FirstOrDefaultAsync(x => x.Id.Equals(id));
         }
 

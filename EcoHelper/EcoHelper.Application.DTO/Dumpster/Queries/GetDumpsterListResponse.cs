@@ -19,11 +19,7 @@
 
             public void CreateMappings(Profile configuration)
             {
-                configuration.CreateMap<Domain.Entities.Dumpster, DumpsterLookupModel>()
-                    .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-                    .ForMember(cDTO => cDTO.Name, opt => opt.MapFrom(c => c.Name))
-                    .ForMember(cDTO => cDTO.Garbages, opt => opt.MapFrom(c => c.Garbages.ToList()))
-                    .ForMember(cDTO => cDTO.InterestingFacts, opt => opt.MapFrom(c => c.InterestingFacts.ToList()));
+                configuration.CreateMap<Domain.Entities.Dumpster, DumpsterLookupModel>();
             }
         }
     }

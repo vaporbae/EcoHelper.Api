@@ -2,6 +2,7 @@
 {
     using System.Threading;
     using System.Threading.Tasks;
+    using AutoMapper;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.Garbage.Queries;
     using EcoHelper.Application.Exceptions;
@@ -20,10 +21,12 @@
         public class Handler : IRequestHandler<GetGarbageDetailsQuery, GetGarbageDetailResponse>
         {
             private readonly IUnitOfWork _uow;
+            private readonly IMapper _mapper;
 
-            public Handler(IUnitOfWork uow)
+            public Handler(IUnitOfWork uow, IMapper mapper)
             {
                 _uow = uow;
+                _mapper = mapper;
             }
 
             public async Task<GetGarbageDetailResponse> Handle(GetGarbageDetailsQuery request, CancellationToken cancellationToken)
@@ -34,10 +37,10 @@
 
                 if (entity == null)
                 {
-                    throw new NotFoundException(nameof(EcoHelper.Domain.Entities.Garbage), data.Id);
+                    throw new NotFoundException(nameof(Domain.Entities.Garbage), data.Id);
                 }
 
-                return GetGarbageDetailResponse.Create(entity);
+                return _mapper.Map<GetGarbageDetailResponse>(entity);
             }
         }
     }

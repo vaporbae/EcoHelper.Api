@@ -1,5 +1,6 @@
 ﻿namespace EcoHelper.Application.Question.Commands.CreateQuestion
 {
+    using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Question.Commands;
@@ -37,9 +38,10 @@
                 }
 
 
-                var entityQuestion = new EcoHelper.Domain.Entities.Question
+                var entityQuestion = new Domain.Entities.Question
                 {
                     QuestionText = data.QuestionText,
+                    Answers = new List<Domain.Entities.Answer>()
                 };
 
                 _uow.QuestionsRepository.Add(entityQuestion);

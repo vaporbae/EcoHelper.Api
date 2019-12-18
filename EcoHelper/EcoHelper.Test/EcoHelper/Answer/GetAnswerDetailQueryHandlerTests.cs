@@ -11,21 +11,24 @@
     using EcoHelper.Test.Infrastructure;
     using Xunit;
     using EcoHelper.Application.Exceptions;
+    using AutoMapper;
 
     [Collection("TestCollection")]
     public class GetBaseVersionDetailQueryHandlerTests
     {
         private readonly IUnitOfWork _uow;
+        private readonly IMapper _mapper;
 
         public GetBaseVersionDetailQueryHandlerTests(TestFixture fixture)
         {
             _uow = fixture.UoW;
+            _mapper = fixture.Mapper;
         }
 
         [Fact]
         public async Task GetAnswerDetail()
         {
-            var sut = new GetAnswerDetailsQuery.Handler(_uow);
+            var sut = new GetAnswerDetailsQuery.Handler(_uow, _mapper);
 
             var requestData = new IdRequest(11);
             var result = await sut.Handle(new GetAnswerDetailsQuery(requestData), CancellationToken.None);
@@ -36,7 +39,7 @@
         [Fact]
         public async Task GetAnswerDetailForNotExistingIdShouldThrowException()
         {
-            var sut = new GetAnswerDetailsQuery.Handler(_uow);
+            var sut = new GetAnswerDetailsQuery.Handler(_uow, _mapper);
 
             var requestData = new IdRequest(2389493);
             var result = await sut.Handle(new GetAnswerDetailsQuery(requestData), CancellationToken.None).ShouldThrowAsync<NotFoundException>();
