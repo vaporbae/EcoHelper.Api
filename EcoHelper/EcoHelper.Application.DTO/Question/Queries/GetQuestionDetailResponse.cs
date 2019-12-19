@@ -13,7 +13,7 @@
         public int Id { get; set; }
         public string QuestionText { get; set; }
 
-        public IList<Domain.Entities.Answer> Answers { get; set; }
+        public IList<GetAnswerDetailResponse> Answers { get; set; }
 
         void IHaveCustomMapping.CreateMappings(Profile configuration)
         {

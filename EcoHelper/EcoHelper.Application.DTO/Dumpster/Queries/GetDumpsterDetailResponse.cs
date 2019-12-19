@@ -7,6 +7,7 @@
     using AutoMapper;
     using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.DTO.Garbage.Queries;
+    using EcoHelper.Application.DTO.InterestingFact.Queries;
     using EcoHelper.Application.DTO.Interfaces.Mapping;
 
     public class GetDumpsterDetailResponse : IHaveCustomMapping
@@ -14,8 +15,8 @@
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public IList<Domain.Entities.Garbage> Garbages { get; set; }
-        public IList<Domain.Entities.InterestingFact> InterestingFacts { get; set; }
+        public IList<GetGarbageDetailResponse> Garbages { get; set; }
+        public IList<GetInterestingFactDetailResponse> InterestingFacts { get; set; }
 
         void IHaveCustomMapping.CreateMappings(Profile configuration)
         {

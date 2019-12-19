@@ -11,8 +11,9 @@
     using EcoHelper.Test.Infrastructure;
     using Xunit;
     using EcoHelper.Application.Exceptions;
-    using EcoHelper.Domain.Entities;
     using AutoMapper;
+    using EcoHelper.Application.DTO.InterestingFact.Queries;
+    using EcoHelper.Application.DTO.Garbage.Queries;
 
     [Collection("TestCollection")]
     public class GetDumpsterDetailQueryHandlerTests
@@ -36,8 +37,8 @@
 
             result.ShouldBeOfType<GetDumpsterDetailResponse>();
             result.Id.ShouldBe(11);
-            result.InterestingFacts.ShouldBeOfType<List<InterestingFact>>();
-            result.Garbages.ShouldBeOfType<List<Garbage>>();
+            result.InterestingFacts.ShouldBeOfType<List<GetInterestingFactDetailResponse>>();
+            result.Garbages.ShouldBeOfType<List<GetGarbageDetailResponse>>();
         }
         [Fact]
         public async Task GetDumpsterDetailForNotExistingIdShouldThrowException()

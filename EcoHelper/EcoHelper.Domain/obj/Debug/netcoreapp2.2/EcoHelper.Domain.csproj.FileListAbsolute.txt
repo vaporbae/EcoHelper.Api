@@ -13,3 +13,4 @@ C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Debug\netcoreapp2.2\EcoHelpe
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Debug\netcoreapp2.2\EcoHelper.Domain.AssemblyInfo.cs
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Debug\netcoreapp2.2\EcoHelper.Domain.dll
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Debug\netcoreapp2.2\EcoHelper.Domain.pdb
+C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Domain\obj\Debug\netcoreapp2.2\EcoHelper.Domain.csprojAssemblyReference.cache

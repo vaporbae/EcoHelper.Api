@@ -27,8 +27,9 @@
             RuleFor(x => x).MustAsync(async (request, val, token) =>
             {
                 var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
-                var answers = result.Answers.ToList();
+                var answers = result.Answers;
 
+                if(answers!=null)
                 if (answers.Where(y=>y.AnswerText.ToLower().Equals(val.AnswerText.ToLower())).Count()>0)
                 {
                     return false;
@@ -40,8 +41,9 @@
             RuleFor(x => x).MustAsync(async (request, val, token) =>
             {
                 var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
-                var answers = result.Answers.ToList();
+                var answers = result.Answers;
 
+                if(answers!=null)
                 if (answers.Count()>3)
                 {
                     return false;
@@ -56,8 +58,9 @@
                     return true;
 
                 var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
-                var answers = result.Answers.ToList();
+                var answers = result.Answers;
 
+                if(answers!=null)
                 if (answers.Where(y=>y.IsCorrect==true).Count()>0)
                 {
                     return false;

@@ -37,7 +37,8 @@
                 new Question{Id=11, QuestionText="test 2", Answers = new List<Answer>()},
                 new Question{Id=12, QuestionText="test 3", Answers = new List<Answer>()},
                 new Question{Id=13, QuestionText="test 4", Answers = new List<Answer>()},
-                new Question{Id=14, QuestionText="test 5", Answers = new List<Answer>()}
+                new Question{Id=14, QuestionText="test 5", Answers = new List<Answer>()},
+                new Question{Id=15, QuestionText="test 6", Answers = new List<Answer>()}
             });
 
             context.Answers.AddRange(new[]
@@ -45,7 +46,11 @@
                 new Answer{Id=10, AnswerText="hababa", IsCorrect=false, QuestionId=11},
                 new Answer{Id=11, AnswerText="hababa1", IsCorrect=false, QuestionId=11},
                 new Answer{Id=12, AnswerText="hababa2", IsCorrect=false, QuestionId=11},
-                new Answer{Id=13, AnswerText="hababa3", IsCorrect=false, QuestionId=11}
+                new Answer{Id=13, AnswerText="hababa3", IsCorrect=false, QuestionId=11},
+                new Answer{Id=14, AnswerText = "Dzien Dobry Test 12", IsCorrect = true, QuestionId = 12},
+                new Answer{Id=15, AnswerText = "Dzien Dobry Test 123", IsCorrect = false, QuestionId = 12},
+                new Answer{Id=16, AnswerText = "Dzien Dobry Test 124", IsCorrect = false, QuestionId = 12},
+                new Answer{Id=17, AnswerText = "Dzien Dobry Test 125", IsCorrect = false, QuestionId = 12},
             });
 
             context.BaseVersions.AddRange(new[]

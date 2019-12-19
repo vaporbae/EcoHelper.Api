@@ -33,7 +33,7 @@
             {
                 IdRequest data = request.Data;
 
-                var entity = await _uow.QuestionsRepository.GetByIdAsync(data.Id);
+                var entity = await _uow.QuestionsRepository.GetFirstAsync(x=>x.Id==data.Id,null,"Answers");
 
                 if (entity == null)
                 {

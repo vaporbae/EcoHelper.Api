@@ -33,7 +33,7 @@
             {
                 IdRequest data = request.Data;
 
-                var entity = await _uow.DumpstersRepository.GetByIdAsync(data.Id);
+                var entity = await _uow.DumpstersRepository.GetFirstAsync(x => x.Id == data.Id, null, "Garbages,InterestingFacts");
 
                 if (entity == null)
                 {

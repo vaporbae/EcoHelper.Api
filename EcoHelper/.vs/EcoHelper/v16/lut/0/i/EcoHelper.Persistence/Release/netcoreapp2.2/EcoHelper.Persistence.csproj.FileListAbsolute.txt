@@ -1,0 +1,8 @@
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.deps.json
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.runtimeconfig.json
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.runtimeconfig.dev.json
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\b\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.dll
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.AssemblyInfoInputs.cache
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.AssemblyInfo.cs
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.csproj.CopyComplete
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.dll

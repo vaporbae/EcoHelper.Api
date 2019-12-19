@@ -44,7 +44,8 @@
                 {
                     var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
                     var dumpsterFacts = result.InterestingFacts;
-
+                    
+                    if(dumpsterFacts!=null)
                     if (dumpsterFacts.Where(y=>y.Title.ToLower().Equals(val.Title.ToLower())).Count()>0)
                     {
                         return false;

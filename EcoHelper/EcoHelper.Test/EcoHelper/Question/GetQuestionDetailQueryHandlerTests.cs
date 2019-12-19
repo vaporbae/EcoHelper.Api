@@ -5,6 +5,7 @@
     using System.Threading.Tasks;
     using Shouldly;
     using EcoHelper.Application.Question.Queries.GetQuestionDetails;
+    using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Question.Queries;
     using EcoHelper.Application.DTO.Common;
@@ -36,7 +37,7 @@
 
             result.ShouldBeOfType<GetQuestionDetailResponse>();
             result.Id.ShouldBe(11);
-            result.Answers.ShouldBeOfType<List<Answer>>();
+            result.Answers.ShouldBeOfType<List<GetAnswerDetailResponse>>();
         }
         [Fact]
         public async Task GetQuestionDetailForNotExistingIdShouldThrowException()
