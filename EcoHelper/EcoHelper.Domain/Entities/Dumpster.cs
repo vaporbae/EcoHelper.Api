@@ -7,7 +7,7 @@
     {
         public string Name { get; set; }
 
-        public ICollection<Garbage> Garbages  { get; set; }
+        public ICollection<Garbage> Garbages { get; set; }
         public ICollection<InterestingFact> InterestingFacts { get; set; }
     }
 }

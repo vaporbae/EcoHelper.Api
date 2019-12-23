@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.Authentication.Commands.ResetPassword
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Helpers;
     using EcoHelper.Application.Interfaces;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class ResetPasswordCommand : IRequest
     {

@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Garbages.Commands.DeleteGarbage
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class DeleteGarbageCommand : IRequest
     {

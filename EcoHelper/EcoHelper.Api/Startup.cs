@@ -1,19 +1,6 @@
 ﻿namespace EcoHelper.Api
 {
-    using System.Collections.Generic;
-    using System.Net;
-    using System.Reflection;
     using AutoMapper;
-    using MediatR;
-    using Microsoft.AspNetCore.Authentication.JwtBearer;
-    using Microsoft.AspNetCore.Builder;
-    using Microsoft.AspNetCore.Hosting;
-    using Microsoft.AspNetCore.HttpOverrides;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.IdentityModel.Tokens;
     using EcoHelper.Api.Filters;
     using EcoHelper.Application.DTO.Authentication;
     using EcoHelper.Application.Infrastructure.AutoMapper;
@@ -25,7 +12,20 @@
     using EcoHelper.Infrastucture.Authentication;
     using EcoHelper.Infrastucture.Email;
     using EcoHelper.Persistence;
+    using MediatR;
+    using Microsoft.AspNetCore.Authentication.JwtBearer;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.HttpOverrides;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.IdentityModel.Tokens;
     using Swashbuckle.AspNetCore.Swagger;
+    using System.Collections.Generic;
+    using System.Net;
+    using System.Reflection;
 
     public class Startup
     {

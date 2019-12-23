@@ -1,16 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
-namespace EcoHelper.Api.Controllers
+﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Dumpster.Commands;
     using EcoHelper.Application.Dumpster.Commands.CreateDumpster;
     using EcoHelper.Application.Dumpster.Queries.GetDumpsterDetails;
     using EcoHelper.Application.Dumpster.Queries.GetDumpsters;
     using EcoHelper.Application.Dumpsters.Commands.DeleteDumpster;
-    using EcoHelper.Application.DTO.Dumpster.Commands;
-    using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class DumpsterController : BaseController
     {

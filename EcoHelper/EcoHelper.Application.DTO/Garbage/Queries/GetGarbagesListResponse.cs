@@ -1,9 +1,8 @@
 ﻿namespace EcoHelper.Application.DTO.Garbage.Queries
 {
-    using System.Collections.Generic;
-    using System.Linq;
     using AutoMapper;
     using EcoHelper.Application.DTO.Interfaces.Mapping;
+    using System.Collections.Generic;
 
     public class GetGarbageListResponse
     {

@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.Answer.Commands.CreateAnswer
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Answer.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
 
     public class CreateAnswerCommandValidator : AbstractValidator<CreateAnswerRequest>
@@ -29,11 +29,11 @@
                 var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
-                if(answers!=null)
-                if (answers.Where(y=>y.AnswerText.ToLower().Equals(val.AnswerText.ToLower())).Count()>0)
-                {
-                    return false;
-                }
+                if (answers != null)
+                    if (answers.Where(y => y.AnswerText.ToLower().Equals(val.AnswerText.ToLower())).Count() > 0)
+                    {
+                        return false;
+                    }
 
                 return true;
             }).WithMessage("This answer to this question already exists.");
@@ -43,11 +43,11 @@
                 var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
-                if(answers!=null)
-                if (answers.Count()>3)
-                {
-                    return false;
-                }
+                if (answers != null)
+                    if (answers.Count() > 3)
+                    {
+                        return false;
+                    }
 
                 return true;
             }).WithMessage("This question already has 4 questions.");
@@ -60,11 +60,11 @@
                 var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
-                if(answers!=null)
-                if (answers.Where(y=>y.IsCorrect==true).Count()>0)
-                {
-                    return false;
-                }
+                if (answers != null)
+                    if (answers.Where(y => y.IsCorrect == true).Count() > 0)
+                    {
+                        return false;
+                    }
 
                 return true;
             }).WithMessage("This question already has correct answer.");

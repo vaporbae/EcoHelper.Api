@@ -1,16 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
-namespace EcoHelper.Api.Controllers
+﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Question.Commands;
     using EcoHelper.Application.Question.Commands.CreateQuestion;
     using EcoHelper.Application.Question.Queries.GetQuestionDetails;
     using EcoHelper.Application.Question.Queries.GetQuestions;
     using EcoHelper.Application.Questions.Commands.DeleteQuestion;
-    using EcoHelper.Application.DTO.Question.Commands;
-    using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class QuestionController : BaseController
     {

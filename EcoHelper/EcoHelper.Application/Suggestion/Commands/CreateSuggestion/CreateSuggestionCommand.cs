@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Suggestion.Commands.CreateSuggestion
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Suggestion.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateSuggestionCommand : IRequest
     {

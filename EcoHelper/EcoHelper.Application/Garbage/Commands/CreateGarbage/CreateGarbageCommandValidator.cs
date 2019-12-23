@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.Garbage.Commands.CreateGarbage
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Garbage.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
 
     public class CreateGarbageCommandValidator : AbstractValidator<CreateGarbageRequest>

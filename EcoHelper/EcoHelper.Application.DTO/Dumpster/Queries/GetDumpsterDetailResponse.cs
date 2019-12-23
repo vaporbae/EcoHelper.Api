@@ -1,14 +1,10 @@
 ﻿namespace EcoHelper.Application.DTO.Dumpster.Queries
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Linq.Expressions;
     using AutoMapper;
-    using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.DTO.Garbage.Queries;
     using EcoHelper.Application.DTO.InterestingFact.Queries;
     using EcoHelper.Application.DTO.Interfaces.Mapping;
+    using System.Collections.Generic;
 
     public class GetDumpsterDetailResponse : IHaveCustomMapping
     {

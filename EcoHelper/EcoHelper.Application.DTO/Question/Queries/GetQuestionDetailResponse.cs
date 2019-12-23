@@ -3,10 +3,7 @@
     using AutoMapper;
     using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.DTO.Interfaces.Mapping;
-    using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Linq.Expressions;
 
     public class GetQuestionDetailResponse : IHaveCustomMapping
     {

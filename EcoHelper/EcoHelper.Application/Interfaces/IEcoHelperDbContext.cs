@@ -1,8 +1,8 @@
 ﻿
 namespace EcoHelper.Application.Interfaces
 {
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Domain.Entities;
+    using Microsoft.EntityFrameworkCore;
 
     public interface IEcoHelperDbContext
     {

@@ -1,10 +1,10 @@
 ﻿namespace EcoHelper.Test.Infrastructure
 {
-    using System.IO;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.Options;
     using EcoHelper.Application.DTO.Authentication;
     using EcoHelper.Common;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.Options;
+    using System.IO;
 
     public static class JwtSettingFactory
     {

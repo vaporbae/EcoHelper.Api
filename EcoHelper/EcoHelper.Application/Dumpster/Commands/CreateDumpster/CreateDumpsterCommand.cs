@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.Dumpster.Commands.CreateDumpster
 {
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Dumpster.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Collections.Generic;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateDumpsterCommand : IRequest
     {
@@ -40,9 +40,9 @@
 
                 var entityDumpster = new EcoHelper.Domain.Entities.Dumpster
                 {
-                     Name = data.Name,
-                     InterestingFacts = new List<Domain.Entities.InterestingFact>(),
-                     Garbages = new List<Domain.Entities.Garbage>()
+                    Name = data.Name,
+                    InterestingFacts = new List<Domain.Entities.InterestingFact>(),
+                    Garbages = new List<Domain.Entities.Garbage>()
                 };
 
                 _uow.DumpstersRepository.Add(entityDumpster);

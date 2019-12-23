@@ -1,14 +1,14 @@
 ﻿namespace EcoHelper.Application.BaseVersion.Queries.GetAnswerDetails
 {
-    using System.Linq;
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Linq;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetBaseVersionDetailsQuery : IRequest<GetBaseVersionDetailResponse>
     {

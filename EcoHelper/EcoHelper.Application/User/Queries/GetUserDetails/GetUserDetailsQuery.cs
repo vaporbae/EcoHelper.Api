@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.User.Queries.GetUserDetails
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.User.Queries;
     using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetUserDetailsQuery : IRequest<GetUserDetailResponse>
     {

@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.InterestingFact.Queries.GetInterestingFacts
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.InterestingFact.Queries;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
     using static EcoHelper.Application.DTO.InterestingFact.Queries.GetInterestingFactListResponse;
 
     public class GetInterestingFactsQuery : IRequest<GetInterestingFactListResponse>

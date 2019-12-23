@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.User.Commands.DeleteUser
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class DeleteUserCommand : IRequest
     {

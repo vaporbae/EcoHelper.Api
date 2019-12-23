@@ -1,15 +1,11 @@
 ﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Application.DTO.Common;
+    using EcoHelper.Application.DTO.User.Commands;
+    using EcoHelper.Application.User.Commands.UpdateUser;
+    using EcoHelper.Application.User.Queries.GetUsers;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
-    using EcoHelper.Application.DTO.User.Commands;
-    using EcoHelper.Application.User.Commands.CreateUser;
-    using EcoHelper.Application.User.Commands.UpdateUser;
-    using EcoHelper.Application.User.Queries.GetUserDetails;
-    using EcoHelper.Application.User.Queries.GetUsers;
+    using System.Threading.Tasks;
 
     public class UserController : BaseController
     {

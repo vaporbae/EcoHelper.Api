@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Api.Filters
 {
-    using System;
-    using System.Net;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.AspNetCore.Mvc.Filters;
     using EcoHelper.Api.Models;
     using EcoHelper.Application.Exceptions;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Filters;
+    using System;
+    using System.Net;
 
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class CustomExceptionFilterAttribute : ExceptionFilterAttribute

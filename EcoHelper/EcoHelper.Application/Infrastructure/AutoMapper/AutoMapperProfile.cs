@@ -1,7 +1,7 @@
 ﻿namespace EcoHelper.Application.Infrastructure.AutoMapper
 {
-    using global::AutoMapper;
     using EcoHelper.Application.DTO.Interfaces.Mapping;
+    using global::AutoMapper;
 
     public class AutoMapperProfile : Profile
     {

@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Mvc;
     using EcoHelper.Application.Authentication.Commands.ResetPassword;
     using EcoHelper.Application.Authentication.Queries.Authentication;
     using EcoHelper.Application.Authentication.Queries.GetResetPasswordToken;
     using EcoHelper.Application.DTO.Authentication.Queries;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class AuthenticationController : BaseController
     {

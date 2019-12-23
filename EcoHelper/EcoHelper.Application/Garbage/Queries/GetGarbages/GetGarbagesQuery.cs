@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Garbage.Queries.GetGarbages
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Garbage.Queries;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
     using static EcoHelper.Application.DTO.Garbage.Queries.GetGarbageListResponse;
 
     public class GetGarbagesQuery : IRequest<GetGarbageListResponse>

@@ -1,14 +1,14 @@
 ﻿namespace EcoHelper.Application.Authentication.Queries.GetResetPasswordToken
 {
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Common;
+    using MediatR;
+    using Microsoft.AspNetCore.Http;
     using System;
     using System.Threading;
     using System.Threading.Tasks;
-    using MediatR;
-    using Microsoft.AspNetCore.Http;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Application.Interfaces;
-    using EcoHelper.Common;
 
     public class GetResetPasswordTokenQuery : IRequest<string>
     {

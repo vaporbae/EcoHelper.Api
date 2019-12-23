@@ -1,16 +1,14 @@
 ﻿namespace EcoHelper.Test.Questions
 {
+    using EcoHelper.Application.DTO.Question.Commands;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Questions.Commands.DeleteQuestion;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.Questions.Commands.DeleteQuestion;
-    using EcoHelper.Application.DTO.InterestingFact.Commands;
-    using EcoHelper.Application.DTO.Question.Commands;
 
     [Collection("TestCollection")]
     public class DeleteQuestionCommandTests

@@ -1,10 +1,9 @@
 ﻿namespace EcoHelper.Application.BaseVersion.Commands.CreateBaseVersion
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.BaseVersion.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
-    using System;
 
     public class CreateBaseVersionCommandValidator : AbstractValidator<CreateBaseVersionRequest>
     {
@@ -21,7 +20,7 @@
                 {
                     var lastVer = result.Where(x => x.Id == result2[(result.Count() - 1)].Id).First();
 
-                    if (lastVer.Ver>val)
+                    if (lastVer.Ver > val)
                     {
                         throw new ValidationException("Ver must be bigger than the last one.");
                     }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EcoHelper.Application.DTO.Dumpster.Commands
+﻿namespace EcoHelper.Application.DTO.Dumpster.Commands
 {
     public class CreateDumpsterRequest
     {

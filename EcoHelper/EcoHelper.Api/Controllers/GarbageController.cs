@@ -1,16 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
-namespace EcoHelper.Api.Controllers
+﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.Garbage.Commands.CreateGarbage;
     using EcoHelper.Application.Garbage.Queries.GetGarbageDetails;
     using EcoHelper.Application.Garbage.Queries.GetGarbages;
     using EcoHelper.Application.Garbages.Commands.DeleteGarbage;
-    using EcoHelper.Application.DTO.Garbage.Commands;
-    using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class GarbageController : BaseController
     {

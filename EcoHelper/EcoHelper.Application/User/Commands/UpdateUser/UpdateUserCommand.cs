@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.User.Commands.UpdateUser
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.User.Commands;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Helpers;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class UpdateUserCommand : IRequest
     {

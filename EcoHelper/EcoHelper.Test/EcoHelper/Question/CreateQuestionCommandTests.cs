@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.Questions
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Question.Commands.CreateQuestion;
     using EcoHelper.Application.DTO.Question.Commands;
     using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Question.Commands.CreateQuestion;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]
@@ -37,7 +37,7 @@
             Question.ShouldNotBeNull();
         }
 
-       
+
         [Fact]
         public async Task CreateQuestionShouldThrowExceptionAfterProvidingEmptyQuestionName()
         {

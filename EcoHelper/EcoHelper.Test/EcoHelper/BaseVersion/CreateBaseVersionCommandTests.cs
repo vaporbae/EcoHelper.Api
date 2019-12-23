@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.BaseVersions
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
     using EcoHelper.Application.BaseVersion.Commands.CreateBaseVersion;
     using EcoHelper.Application.DTO.BaseVersion.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]

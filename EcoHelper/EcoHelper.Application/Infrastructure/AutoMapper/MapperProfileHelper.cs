@@ -1,10 +1,10 @@
 ﻿namespace EcoHelper.Application.Infrastructure.AutoMapper
 {
+    using EcoHelper.Application.DTO.Interfaces.Mapping;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using EcoHelper.Application.DTO.Interfaces.Mapping;
 
     public sealed class Map
     {

@@ -1,17 +1,16 @@
 ﻿namespace EcoHelper.Test.InterestingFacts
 {
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.InterestingFact.Queries;
+    using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.InterestingFact.Queries.GetInterestingFactDetails;
     using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.InterestingFact.Queries;
-    using EcoHelper.Application.DTO.Common;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
-    using EcoHelper.Application.Exceptions;
-    using AutoMapper;
 
     [Collection("TestCollection")]
     public class GetInterestingFactDetailQueryHandlerTests

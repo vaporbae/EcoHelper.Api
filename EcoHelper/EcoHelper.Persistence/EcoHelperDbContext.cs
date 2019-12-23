@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Persistence
 {
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Application.Interfaces;
     using EcoHelper.Domain.Entities;
+    using Microsoft.EntityFrameworkCore;
 
     public class EcoHelperDbContext : DbContext, IEcoHelperDbContext
     {

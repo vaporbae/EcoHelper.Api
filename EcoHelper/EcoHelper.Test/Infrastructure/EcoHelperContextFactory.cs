@@ -1,10 +1,10 @@
 ﻿namespace EcoHelper.Test.Infrastructure
 {
-    using System;
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Application.Helpers;
     using EcoHelper.Domain.Entities;
     using EcoHelper.Persistence;
+    using Microsoft.EntityFrameworkCore;
+    using System;
     using System.Collections.Generic;
 
     public static class EcoHelperContextFactory

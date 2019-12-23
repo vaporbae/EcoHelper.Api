@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Question.Queries.GetQuestions
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Question.Queries;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
     using static EcoHelper.Application.DTO.Question.Queries.GetQuestionListResponse;
 
     public class GetQuestionsQuery : IRequest<GetQuestionListResponse>

@@ -1,10 +1,5 @@
 ﻿namespace EcoHelper.Infrastructure.UoW
 {
-    using System;
-    using System.Collections;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Application.Interfaces;
     using EcoHelper.Application.Interfaces.Repository;
     using EcoHelper.Application.Interfaces.Repository.Generic;
@@ -13,6 +8,11 @@
     using EcoHelper.Domain.Entities.Base;
     using EcoHelper.Infrastructure.Repository;
     using EcoHelper.Infrastructure.Repository.Generic;
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.Collections;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class UnitOfWork : IUnitOfWork
     {

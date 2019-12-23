@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.BaseVersion.Commands.CreateBaseVersion
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.BaseVersion.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateBaseVersionCommand : IRequest
     {

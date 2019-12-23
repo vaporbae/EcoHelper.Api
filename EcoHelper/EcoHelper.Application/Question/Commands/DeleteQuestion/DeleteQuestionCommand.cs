@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Questions.Commands.DeleteQuestion
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Question.Commands;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class DeleteQuestionCommand : IRequest
     {

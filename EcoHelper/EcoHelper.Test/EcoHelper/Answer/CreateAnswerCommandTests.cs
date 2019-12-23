@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.Answers
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
     using EcoHelper.Application.Answer.Commands.CreateAnswer;
     using EcoHelper.Application.DTO.Answer.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]
@@ -34,7 +34,7 @@
 
             await commandHandler.Handle(command, CancellationToken.None);
 
-            var Answer = await _uow.AnswersRepository.FirstOrDefaultAsync(x => x.AnswerText.Equals(command.Data.AnswerText)&&x.QuestionId.Equals(command.Data.QuestionId));
+            var Answer = await _uow.AnswersRepository.FirstOrDefaultAsync(x => x.AnswerText.Equals(command.Data.AnswerText) && x.QuestionId.Equals(command.Data.QuestionId));
 
             Answer.ShouldNotBeNull();
         }

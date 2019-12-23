@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.Infrastructure
 {
-    using System;
     using AutoMapper;
-    using Microsoft.Extensions.Options;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Authentication;
+    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Infrastructure.UoW;
     using EcoHelper.Persistence;
+    using Microsoft.Extensions.Options;
+    using System;
     using Xunit;
 
     public class TestFixture : IDisposable

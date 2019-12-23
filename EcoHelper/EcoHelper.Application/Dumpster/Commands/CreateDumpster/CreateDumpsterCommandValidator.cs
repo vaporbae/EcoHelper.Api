@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.Dumpster.Commands.CreateDumpster
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Dumpster.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
 
     public class CreateDumpsterCommandValidator : AbstractValidator<CreateDumpsterRequest>
@@ -14,7 +14,7 @@
             {
                 var result = await uow.DumpstersRepository.GetAllAsync();
 
-                if (result.Where(y=>y.Name.ToLower().Equals(val.ToLower())).Count()>0)
+                if (result.Where(y => y.Name.ToLower().Equals(val.ToLower())).Count() > 0)
                 {
                     return false;
                 }
@@ -22,7 +22,7 @@
                 return true;
             }).WithMessage("This dumpster already exists.");
 
-            
+
         }
     }
 }

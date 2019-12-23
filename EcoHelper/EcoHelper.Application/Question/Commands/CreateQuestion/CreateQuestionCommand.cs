@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.Question.Commands.CreateQuestion
 {
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Question.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Collections.Generic;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateQuestionCommand : IRequest
     {

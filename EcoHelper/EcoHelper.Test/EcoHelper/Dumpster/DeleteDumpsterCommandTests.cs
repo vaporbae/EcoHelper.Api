@@ -1,15 +1,14 @@
 ﻿namespace EcoHelper.Test.Dumpsters
 {
+    using EcoHelper.Application.DTO.Dumpster.Commands;
+    using EcoHelper.Application.Dumpsters.Commands.DeleteDumpster;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.Dumpsters.Commands.DeleteDumpster;
-    using EcoHelper.Application.DTO.Dumpster.Commands;
 
     [Collection("TestCollection")]
     public class DeleteDumpsterCommandTests

@@ -1,18 +1,16 @@
 ﻿namespace EcoHelper.Test.Suggestions
 {
-    using System.Collections.Generic;
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Suggestion.Queries;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Suggestion.Queries.GetSuggestionDetails;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Suggestion.Queries.GetSuggestionDetails;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Suggestion.Queries;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Domain.Entities;
-    using AutoMapper;
 
     [Collection("TestCollection")]
     public class GetSuggestionDetailQueryHandlerTests

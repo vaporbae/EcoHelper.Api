@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EcoHelper.Application.DTO.Suggestion.Commands
+﻿namespace EcoHelper.Application.DTO.Suggestion.Commands
 {
     public class DeleteSuggestionRequest
     {

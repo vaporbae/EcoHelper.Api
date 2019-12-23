@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Answer.Commands.CreateAnswer
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Answer.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateAnswerCommand : IRequest
     {

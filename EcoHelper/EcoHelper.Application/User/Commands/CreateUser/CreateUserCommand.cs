@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.User.Commands.CreateUser
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using FluentValidation;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.User.Commands;
     using EcoHelper.Application.Helpers;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateUserCommand : IRequest
     {

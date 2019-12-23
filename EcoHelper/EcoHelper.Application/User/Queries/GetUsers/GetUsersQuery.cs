@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Application.User.Queries.GetUsers
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.User;
     using EcoHelper.Application.DTO.User.Queries;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetUsersQuery : IRequest<GetUsersListResponse>
     {

@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.Answers
 {
-    using System.Threading;
-    using System.Threading.Tasks;
+    using Application.Answer.Queries.GetAnswers;
+    using Application.DTO.Answer.Queries;
+    using Application.Interfaces.UoW;
     using AutoMapper;
     using Shouldly;
-    using Application.Answer.Queries.GetAnswers;
-    using Application.Interfaces.UoW;
-    using Application.DTO.Answer.Queries;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Test.Infrastructure;
     using Xunit;
 

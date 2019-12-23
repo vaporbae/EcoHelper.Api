@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Test.InterestingFacts
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
-    using Shouldly;
+    using EcoHelper.Application.DTO.InterestingFact.Queries;
     using EcoHelper.Application.InterestingFact.Queries.GetInterestingFacts;
     using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.InterestingFact.Queries;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]

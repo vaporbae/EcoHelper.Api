@@ -1,17 +1,16 @@
 ﻿namespace EcoHelper.Test.Answers
 {
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
+    using AutoMapper;
     using EcoHelper.Application.Answer.Queries.GetAnswerDetails;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Test.Infrastructure;
-    using Xunit;
     using EcoHelper.Application.Exceptions;
-    using AutoMapper;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
+    using Xunit;
 
     [Collection("TestCollection")]
     public class GetBaseVersionDetailQueryHandlerTests

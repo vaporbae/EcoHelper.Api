@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Garbage.Commands.CreateGarbage
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.Garbage.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateGarbageCommand : IRequest
     {

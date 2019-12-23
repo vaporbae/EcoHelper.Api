@@ -1,15 +1,14 @@
 ﻿namespace EcoHelper.Test.InterestingFacts
 {
+    using EcoHelper.Application.DTO.InterestingFact.Commands;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.InterestingFacts.Commands.DeleteInterestingFact;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.InterestingFacts.Commands.DeleteInterestingFact;
-    using EcoHelper.Application.DTO.InterestingFact.Commands;
 
     [Collection("TestCollection")]
     public class DeleteInterestingFactCommandTests

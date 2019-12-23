@@ -1,17 +1,16 @@
 ﻿namespace EcoHelper.Test.Garbages
 {
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Garbage.Queries;
+    using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Garbage.Queries.GetGarbageDetails;
     using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Garbage.Queries;
-    using EcoHelper.Application.DTO.Common;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
-    using EcoHelper.Application.Exceptions;
-    using AutoMapper;
 
     [Collection("TestCollection")]
     public class GetGarbageDetailQueryHandlerTests

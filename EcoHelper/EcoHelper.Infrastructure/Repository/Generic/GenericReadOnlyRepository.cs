@@ -1,17 +1,17 @@
 ﻿namespace EcoHelper.Infrastructure.Repository.Generic
 {
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+    using EcoHelper.Application.Interfaces;
+    using EcoHelper.Application.Interfaces.Repository.Generic;
+    using EcoHelper.Domain.Entities.Base;
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
     using System.Threading;
     using System.Threading.Tasks;
-    using AutoMapper;
-    using AutoMapper.QueryableExtensions;
-    using Microsoft.EntityFrameworkCore;
-    using EcoHelper.Application.Interfaces.Repository.Generic;
-    using EcoHelper.Application.Interfaces;
-    using EcoHelper.Domain.Entities.Base;
 
     public class GenericReadOnlyRepository<TEntity, TId> : IGenericReadOnlyRepository<TEntity, TId>, IDisposable
         where TEntity : class, IBaseEntity<TId>

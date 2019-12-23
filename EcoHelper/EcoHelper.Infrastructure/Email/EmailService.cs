@@ -1,10 +1,10 @@
 ﻿namespace EcoHelper.Infrastucture.Email
 {
+    using EcoHelper.Application.Interfaces;
+    using Microsoft.Extensions.Options;
     using System.Net;
     using System.Net.Mail;
     using System.Threading.Tasks;
-    using Microsoft.Extensions.Options;
-    using EcoHelper.Application.Interfaces;
 
     public class EmailService : IEmailService
     {

@@ -1,14 +1,13 @@
 ﻿namespace EcoHelper.Test.Suggestions
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Suggestion.Commands.CreateSuggestion;
     using EcoHelper.Application.DTO.Suggestion.Commands;
     using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Suggestion.Commands.CreateSuggestion;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
-    using System.Linq;
 
     [Collection("TestCollection")]
     public class CreateSuggestionCommandTests

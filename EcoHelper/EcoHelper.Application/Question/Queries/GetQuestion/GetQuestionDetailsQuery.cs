@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Application.Question.Queries.GetQuestionDetails
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.Question.Queries;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetQuestionDetailsQuery : IRequest<GetQuestionDetailResponse>
     {
@@ -33,7 +33,7 @@
             {
                 IdRequest data = request.Data;
 
-                var entity = await _uow.QuestionsRepository.GetFirstAsync(x=>x.Id==data.Id,null,"Answers");
+                var entity = await _uow.QuestionsRepository.GetFirstAsync(x => x.Id == data.Id, null, "Answers");
 
                 if (entity == null)
                 {

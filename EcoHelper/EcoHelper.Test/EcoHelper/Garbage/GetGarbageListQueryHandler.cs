@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Test.Garbages
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
-    using Shouldly;
+    using EcoHelper.Application.DTO.Garbage.Queries;
     using EcoHelper.Application.Garbage.Queries.GetGarbages;
     using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Garbage.Queries;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]

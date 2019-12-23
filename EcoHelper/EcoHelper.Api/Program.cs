@@ -1,14 +1,14 @@
 ﻿namespace EcoHelper.Api
 {
-    using System;
-    using System.IO;
+    using EcoHelper.Common;
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
     using Serilog;
     using Serilog.Exceptions;
     using Serilog.Sinks.SystemConsole.Themes;
-    using EcoHelper.Common;
+    using System;
+    using System.IO;
 
     internal static class Program
     {

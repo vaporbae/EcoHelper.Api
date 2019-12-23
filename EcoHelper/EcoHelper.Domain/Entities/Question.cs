@@ -1,7 +1,7 @@
 ﻿namespace EcoHelper.Domain.Entities
 {
-    using System.Collections.Generic;
     using EcoHelper.Domain.Entities.Base;
+    using System.Collections.Generic;
 
     public class Question : BaseEntity<int>
     {

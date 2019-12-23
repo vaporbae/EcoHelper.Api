@@ -1,18 +1,16 @@
-﻿using Microsoft.AspNetCore.Authorization;
-namespace EcoHelper.Api.Controllers
+﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
     using EcoHelper.Application.Answer.Commands.CreateAnswer;
     using EcoHelper.Application.Answer.Queries.GetAnswerDetails;
     using EcoHelper.Application.Answer.Queries.GetAnswers;
     using EcoHelper.Application.Answers.Commands.DeleteAnswer;
     using EcoHelper.Application.DTO.Answer.Commands;
     using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
-    public class AnswerController :BaseController
+    public class AnswerController : BaseController
     {
         [Authorize]
         [HttpPost("/api/answer/create")]

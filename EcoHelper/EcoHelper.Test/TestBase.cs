@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Test
 {
-    using System;
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Persistence;
+    using Microsoft.EntityFrameworkCore;
+    using System;
 
     public class TestBase
     {

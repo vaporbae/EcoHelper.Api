@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.InterestingFact.Commands.CreateInterestingFact
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.InterestingFact.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
 
     public class CreateInterestingFactCommandValidator : AbstractValidator<CreateInterestingFactRequest>
@@ -23,7 +23,7 @@
                 {
                     var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
 
-                    if (result==null)
+                    if (result == null)
                     {
                         throw new ValidationException("This dumpster does not exist.");
                     }
@@ -44,16 +44,16 @@
                 {
                     var result = await uow.DumpstersRepository.GetFirstAsync(x => x.Id == val.DumpsterId, null, "InterestingFacts");
                     var dumpsterFacts = result.InterestingFacts;
-                    
-                    if(dumpsterFacts!=null)
-                    if (dumpsterFacts.Where(y=>y.Title.ToLower().Equals(val.Title.ToLower())).Count()>0)
-                    {
-                        return false;
-                    }
+
+                    if (dumpsterFacts != null)
+                        if (dumpsterFacts.Where(y => y.Title.ToLower().Equals(val.Title.ToLower())).Count() > 0)
+                        {
+                            return false;
+                        }
 
                     return true;
                 }
-               
+
             }).WithMessage("This fact already exists for this dumpster.");
         }
     }

@@ -1,7 +1,7 @@
 ﻿namespace EcoHelper.Persistence
 {
-    using Microsoft.EntityFrameworkCore;
     using EcoHelper.Persistence.Infrastructure;
+    using Microsoft.EntityFrameworkCore;
 
     public class EcoHelperDbContextFactory : DesignTimeDbContextFactoryBase<EcoHelperDbContext>
     {

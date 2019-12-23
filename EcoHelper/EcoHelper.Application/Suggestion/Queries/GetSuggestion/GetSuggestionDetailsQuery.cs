@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Application.Suggestion.Queries.GetSuggestionDetails
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using EcoHelper.Application.DTO.Suggestion.Queries;
+    using AutoMapper;
     using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Suggestion.Queries;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
-    using AutoMapper;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetSuggestionDetailsQuery : IRequest<GetSuggestionDetailResponse>
     {

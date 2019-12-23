@@ -1,7 +1,7 @@
 ﻿namespace EcoHelper.Test.Infrastructure
 {
-    using System;
     using EcoHelper.Persistence;
+    using System;
 
     public class CommandTestBase : IDisposable
     {

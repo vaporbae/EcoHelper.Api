@@ -1,14 +1,14 @@
 ﻿namespace EcoHelper.Application.Authentication.Queries.Authentication
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MediatR;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Authentication;
     using EcoHelper.Application.DTO.Authentication.Queries;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Helpers;
     using EcoHelper.Application.Interfaces;
+    using EcoHelper.Application.Interfaces.UoW;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetValidTokenQuery : IRequest<JwtTokenModel>
     {

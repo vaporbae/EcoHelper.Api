@@ -1,16 +1,14 @@
 ﻿namespace EcoHelper.Test.Suggestions
 {
+    using EcoHelper.Application.DTO.Suggestion.Commands;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Suggestions.Commands.DeleteSuggestion;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Application.Exceptions;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.Suggestions.Commands.DeleteSuggestion;
-    using EcoHelper.Application.DTO.InterestingFact.Commands;
-    using EcoHelper.Application.DTO.Suggestion.Commands;
 
     [Collection("TestCollection")]
     public class DeleteSuggestionCommandTests

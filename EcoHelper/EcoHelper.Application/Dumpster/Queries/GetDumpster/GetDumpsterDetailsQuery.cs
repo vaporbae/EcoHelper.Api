@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Application.Dumpster.Queries.GetDumpsterDetails
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.Dumpster.Queries;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetDumpsterDetailsQuery : IRequest<GetDumpsterDetailResponse>
     {

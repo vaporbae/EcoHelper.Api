@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.Question.Commands.CreateQuestion
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.Question.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
     using System.Linq;
 
     public class CreateQuestionCommandValidator : AbstractValidator<CreateQuestionRequest>

@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Application.Answer.Queries.GetAnswerDetails
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using AutoMapper;
     using EcoHelper.Application.DTO.Answer.Queries;
     using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class GetAnswerDetailsQuery : IRequest<GetAnswerDetailResponse>
     {

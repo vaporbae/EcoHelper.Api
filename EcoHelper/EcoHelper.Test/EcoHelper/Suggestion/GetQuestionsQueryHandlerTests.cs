@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Test.Suggestions
 {
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Suggestion.Queries;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Application.Suggestion.Queries.GetSuggestions;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Threading;
     using System.Threading.Tasks;
-    using AutoMapper;
-    using Shouldly;
-    using EcoHelper.Application.Suggestion.Queries.GetSuggestions;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Suggestion.Queries;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
 
     [Collection("TestCollection")]

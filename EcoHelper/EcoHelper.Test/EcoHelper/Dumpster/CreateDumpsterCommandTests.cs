@@ -1,12 +1,12 @@
 ﻿namespace EcoHelper.Test.Dumpsters
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Dumpster.Commands.CreateDumpster;
     using EcoHelper.Application.DTO.Dumpster.Commands;
+    using EcoHelper.Application.Dumpster.Commands.CreateDumpster;
     using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Test.Infrastructure;
+    using Shouldly;
+    using System.Threading;
+    using System.Threading.Tasks;
     using Xunit;
 
     [Collection("TestCollection")]

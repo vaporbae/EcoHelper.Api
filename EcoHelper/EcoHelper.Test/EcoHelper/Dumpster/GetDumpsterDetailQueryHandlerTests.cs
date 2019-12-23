@@ -1,19 +1,19 @@
 ﻿namespace EcoHelper.Test.Dumpsters
 {
+    using AutoMapper;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Dumpster.Queries;
+    using EcoHelper.Application.DTO.Garbage.Queries;
+    using EcoHelper.Application.DTO.InterestingFact.Queries;
+    using EcoHelper.Application.Dumpster.Queries.GetDumpsterDetails;
+    using EcoHelper.Application.Exceptions;
+    using EcoHelper.Application.Interfaces.UoW;
+    using EcoHelper.Test.Infrastructure;
+    using Shouldly;
     using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
-    using Shouldly;
-    using EcoHelper.Application.Dumpster.Queries.GetDumpsterDetails;
-    using EcoHelper.Application.Interfaces.UoW;
-    using EcoHelper.Application.DTO.Dumpster.Queries;
-    using EcoHelper.Application.DTO.Common;
-    using EcoHelper.Test.Infrastructure;
     using Xunit;
-    using EcoHelper.Application.Exceptions;
-    using AutoMapper;
-    using EcoHelper.Application.DTO.InterestingFact.Queries;
-    using EcoHelper.Application.DTO.Garbage.Queries;
 
     [Collection("TestCollection")]
     public class GetDumpsterDetailQueryHandlerTests

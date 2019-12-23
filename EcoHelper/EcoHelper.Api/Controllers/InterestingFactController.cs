@@ -1,16 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
-namespace EcoHelper.Api.Controllers
+﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Authorization;
-    using Microsoft.AspNetCore.Mvc;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.InterestingFact.Commands;
     using EcoHelper.Application.InterestingFact.Commands.CreateInterestingFact;
     using EcoHelper.Application.InterestingFact.Queries.GetInterestingFactDetails;
     using EcoHelper.Application.InterestingFact.Queries.GetInterestingFacts;
     using EcoHelper.Application.InterestingFacts.Commands.DeleteInterestingFact;
-    using EcoHelper.Application.DTO.InterestingFact.Commands;
-    using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class InterestingFactController : BaseController
     {

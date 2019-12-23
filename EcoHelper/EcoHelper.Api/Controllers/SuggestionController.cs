@@ -1,15 +1,14 @@
 ﻿namespace EcoHelper.Api.Controllers
 {
-    using System.Security.Claims;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Mvc;
+    using EcoHelper.Application.DTO.Common;
+    using EcoHelper.Application.DTO.Suggestion.Commands;
     using EcoHelper.Application.Suggestion.Commands.CreateSuggestion;
     using EcoHelper.Application.Suggestion.Queries.GetSuggestionDetails;
     using EcoHelper.Application.Suggestion.Queries.GetSuggestions;
     using EcoHelper.Application.Suggestions.Commands.DeleteSuggestion;
-    using EcoHelper.Application.DTO.Suggestion.Commands;
-    using EcoHelper.Application.DTO.Common;
     using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
 
     public class SuggestionController : BaseController
     {

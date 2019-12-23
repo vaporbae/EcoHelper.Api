@@ -1,8 +1,8 @@
 ﻿namespace EcoHelper.Application.User.Commands.UpdateUser
 {
-    using FluentValidation;
-    using EcoHelper.Application.Interfaces.UoW;
     using EcoHelper.Application.DTO.User.Commands;
+    using EcoHelper.Application.Interfaces.UoW;
+    using FluentValidation;
 
     public class UpdateUserCommandValidator : AbstractValidator<UpdateUserRequest>
     {

@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Persistence.Infrastructure
 {
-    using System;
-    using System.IO;
+    using EcoHelper.Common;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Design;
     using Microsoft.Extensions.Configuration;
-    using EcoHelper.Common;
+    using System;
+    using System.IO;
 
     public abstract class DesignTimeDbContextFactoryBase<TContext> :
          IDesignTimeDbContextFactory<TContext> where TContext : DbContext

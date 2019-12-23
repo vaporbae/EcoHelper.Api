@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.InterestingFact.Commands.CreateInterestingFact
 {
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.DTO.InterestingFact.Commands;
     using EcoHelper.Application.Interfaces.UoW;
     using FluentValidation;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class CreateInterestingFactCommand : IRequest
     {

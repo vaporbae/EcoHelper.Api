@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Infrastructure.Repository.Generic
 {
+    using EcoHelper.Application.Interfaces;
+    using EcoHelper.Application.Interfaces.Repository.Generic;
+    using EcoHelper.Domain.Entities.Base;
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Threading.Tasks;
-    using Microsoft.EntityFrameworkCore;
-    using EcoHelper.Application.Interfaces.Repository.Generic;
-    using EcoHelper.Application.Interfaces;
-    using EcoHelper.Domain.Entities.Base;
 
     public class GenericRepository<TEntity, TId> : GenericReadOnlyRepository<TEntity, TId>, IGenericRepository<TEntity, TId>
         where TEntity : class, IBaseEntity<TId> where TId : IComparable

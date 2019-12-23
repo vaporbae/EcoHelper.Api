@@ -1,13 +1,13 @@
 ﻿namespace EcoHelper.Infrastucture.Authentication
 {
+    using EcoHelper.Application.DTO.Authentication;
+    using EcoHelper.Application.Interfaces;
+    using Microsoft.Extensions.Options;
+    using Microsoft.IdentityModel.Tokens;
     using System;
     using System.IdentityModel.Tokens.Jwt;
     using System.Linq;
     using System.Security.Claims;
-    using Microsoft.Extensions.Options;
-    using Microsoft.IdentityModel.Tokens;
-    using EcoHelper.Application.DTO.Authentication;
-    using EcoHelper.Application.Interfaces;
 
     public class JwtService : IJwtService
     {
@@ -53,7 +53,7 @@
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             var result = _handler.CreateToken(tokenDescriptor);
 
-            return new JwtTokenModel { Token = _handler.WriteToken(result), ValidTo = result.ValidTo, Lease=TimeSpan.FromMinutes(20) };
+            return new JwtTokenModel { Token = _handler.WriteToken(result), ValidTo = result.ValidTo, Lease = TimeSpan.FromMinutes(20) };
         }
 
         public bool ValidateStringToken(string token)

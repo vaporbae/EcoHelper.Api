@@ -1,11 +1,11 @@
 ﻿namespace EcoHelper.Application.Interfaces.UoW
 {
-    using System;
-    using System.Threading;
-    using System.Threading.Tasks;
     using EcoHelper.Application.Interfaces.Repository;
     using EcoHelper.Application.Interfaces.Repository.Generic;
     using EcoHelper.Domain.Entities.Base;
+    using System;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public interface IUnitOfWork : IDisposable
     {

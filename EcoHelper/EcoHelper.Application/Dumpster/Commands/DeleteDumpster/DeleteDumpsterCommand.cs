@@ -1,12 +1,11 @@
 ﻿namespace EcoHelper.Application.Dumpsters.Commands.DeleteDumpster
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using EcoHelper.Application.DTO.Common;
     using EcoHelper.Application.DTO.Dumpster.Commands;
     using EcoHelper.Application.Exceptions;
     using EcoHelper.Application.Interfaces.UoW;
     using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     public class DeleteDumpsterCommand : IRequest
     {
