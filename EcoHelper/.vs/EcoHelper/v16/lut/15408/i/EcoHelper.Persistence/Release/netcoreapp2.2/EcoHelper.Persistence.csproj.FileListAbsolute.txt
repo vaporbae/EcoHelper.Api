@@ -6,3 +6,4 @@ C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\R
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.AssemblyInfo.cs
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.csproj.CopyComplete
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.dll
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Persistence\Release\netcoreapp2.2\EcoHelper.Persistence.csprojAssemblyReference.cache

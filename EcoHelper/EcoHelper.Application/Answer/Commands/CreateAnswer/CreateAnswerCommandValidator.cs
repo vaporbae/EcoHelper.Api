@@ -26,7 +26,7 @@
 
             RuleFor(x => x).MustAsync(async (request, val, token) =>
             {
-                var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
+                var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
                 if(answers!=null)
@@ -40,7 +40,7 @@
 
             RuleFor(x => x).MustAsync(async (request, val, token) =>
             {
-                var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
+                var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
                 if(answers!=null)
@@ -57,7 +57,7 @@
                 if (val.IsCorrect == false)
                     return true;
 
-                var result = await uow.QuestionsRepository.GetByIdAsync(val.QuestionId);
+                var result = await uow.QuestionsRepository.GetFirstAsync(x => x.Id == val.QuestionId, null, "Answers");
                 var answers = result.Answers;
 
                 if(answers!=null)

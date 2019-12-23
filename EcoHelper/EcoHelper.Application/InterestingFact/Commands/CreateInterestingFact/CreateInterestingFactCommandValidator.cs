@@ -42,7 +42,7 @@
                 }
                 else
                 {
-                    var result = await uow.DumpstersRepository.GetByIdAsync(dumpsterId);
+                    var result = await uow.DumpstersRepository.GetFirstAsync(x => x.Id == val.DumpsterId, null, "InterestingFacts");
                     var dumpsterFacts = result.InterestingFacts;
                     
                     if(dumpsterFacts!=null)
