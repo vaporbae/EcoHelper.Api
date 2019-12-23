@@ -9,6 +9,7 @@
     using EcoHelper.Application.Suggestions.Commands.DeleteSuggestion;
     using EcoHelper.Application.DTO.Suggestion.Commands;
     using EcoHelper.Application.DTO.Common;
+    using Microsoft.AspNetCore.Authorization;
 
     public class SuggestionController : BaseController
     {
@@ -20,21 +21,21 @@
             return Ok(await Mediator.Send(command));
         }
 
-        //[Authorize]
-        [HttpPost("/api/Suggestion/delete")]
+        [Authorize]
+        [HttpDelete("/api/Suggestion/delete")]
         public async Task<IActionResult> DeleteSuggestion([FromBody]DeleteSuggestionRequest Suggestion)
         {
             var command = new DeleteSuggestionCommand(Suggestion);
 
             return Ok(await Mediator.Send(command));
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet("/api/Suggestions")]
         public async Task<IActionResult> GetSuggestions()
         {
             return Ok(await Mediator.Send(new GetSuggestionsQuery()));
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet("/api/Suggestion/details/{id}")]
         public async Task<IActionResult> GetSuggestionDetails(int id)
         {

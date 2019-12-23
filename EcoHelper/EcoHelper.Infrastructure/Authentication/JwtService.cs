@@ -53,17 +53,21 @@
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             var result = _handler.CreateToken(tokenDescriptor);
 
-            return new JwtTokenModel { Token = _handler.WriteToken(result), ValidTo = result.ValidTo };
+            return new JwtTokenModel { Token = _handler.WriteToken(result), ValidTo = result.ValidTo, Lease=TimeSpan.FromMinutes(20) };
         }
 
         public bool ValidateStringToken(string token)
         {
             var parameters = new TokenValidationParameters
             {
-                ValidateLifetime = false,
                 ValidateAudience = false,
                 ValidateIssuer = false,
-                IssuerSigningKey = new SymmetricSecurityKey(_key)
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(_key),
+                ClockSkew = TimeSpan.FromSeconds(60),
+                RequireExpirationTime = true,
+                RequireSignedTokens = true,
             };
 
             _handler.ValidateToken(token, parameters, out _);

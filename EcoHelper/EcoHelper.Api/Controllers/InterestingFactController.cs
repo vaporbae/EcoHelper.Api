@@ -14,7 +14,7 @@ namespace EcoHelper.Api.Controllers
 
     public class InterestingFactController : BaseController
     {
-        //[Authorize]
+        [Authorize]
         [HttpPost("/api/InterestingFact/create")]
         public async Task<IActionResult> CreateInterestingFact([FromBody]CreateInterestingFactRequest InterestingFact)
         {
@@ -23,8 +23,8 @@ namespace EcoHelper.Api.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        //[Authorize]
-        [HttpPost("/api/InterestingFact/delete")]
+        [Authorize]
+        [HttpDelete("/api/InterestingFact/delete")]
         public async Task<IActionResult> DeleteInterestingFact([FromBody]DeleteInterestingFactRequest InterestingFact)
         {
             var command = new DeleteInterestingFactCommand(InterestingFact);

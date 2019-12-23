@@ -6,5 +6,6 @@
     {
         public string Token { get; set; }
         public DateTime ValidTo { get; set; }
+        public TimeSpan Lease { get; set; }
     }
 }

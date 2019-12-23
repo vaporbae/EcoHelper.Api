@@ -12,7 +12,7 @@ namespace EcoHelper.Api.Controllers
 
     public class BaseVersionController : BaseController
     {
-        //[Authorize]
+        [Authorize]
         [HttpPost("/api/BaseVersion/create")]
         public async Task<IActionResult> CreateBaseVersion([FromBody]CreateBaseVersionRequest BaseVersion)
         {
@@ -21,7 +21,7 @@ namespace EcoHelper.Api.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpGet("/api/BaseVersion/details/{id}")]
         public async Task<IActionResult> GetBaseVersionDetails(int id)
         {

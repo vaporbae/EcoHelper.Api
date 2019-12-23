@@ -14,37 +14,17 @@
     public class UserController : BaseController
     {
         #region Common
-        [HttpPost("/api/register")]
-        public async Task<IActionResult> Registration([FromBody]CreateUserRequest user)
-        {
-            return Ok(await Mediator.Send(new CreateUserCommand(user)));
-        }
-
-        [Authorize(Roles = "User")]
-        [HttpGet("/api/user/details")]
-        public async Task<IActionResult> GetUserDetails()
-        {
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
-            var data = new IdRequest(int.Parse(identity.FindFirst(ClaimTypes.UserData).Value));
-
-            return Ok(await Mediator.Send(new GetUserDetailsQuery(data)));
-        }
+        //[HttpPost("/api/register")]
+        //public async Task<IActionResult> Registration([FromBody]CreateUserRequest user)
+        //{
+        //    return Ok(await Mediator.Send(new CreateUserCommand(user)));
+        //}
 
         [Authorize]
         [HttpPost("/api/user/update")]
         public async Task<IActionResult> UpdateUser([FromBody]UpdateUserRequest user)
         {
             return Ok(await Mediator.Send(new UpdateUserCommand(user)));
-        }
-
-        [Authorize]
-        [HttpGet("/api/friend/details/{id}")]
-        [HttpGet("/api/user/details/{id}")]
-        public async Task<IActionResult> GetFriendDetails(int id)
-        {
-            var query = new GetUserDetailsQuery(new IdRequest(id));
-
-            return Ok(await Mediator.Send(query));
         }
 
         [Authorize]

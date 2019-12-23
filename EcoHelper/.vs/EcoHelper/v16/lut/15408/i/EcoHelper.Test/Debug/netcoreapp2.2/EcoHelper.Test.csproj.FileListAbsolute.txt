@@ -12,3 +12,4 @@ C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Test\Debug\ne
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Test\Debug\netcoreapp2.2\EcoHelper.Test.AssemblyInfo.cs
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Test\Debug\netcoreapp2.2\EcoHelper.Test.csproj.CopyComplete
 C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Test\Debug\netcoreapp2.2\EcoHelper.Test.dll
+C:\Git\EcoHelper.Api\EcoHelper\.vs\EcoHelper\v16\lut\0\i\EcoHelper.Test\Debug\netcoreapp2.2\EcoHelper.Test.csprojAssemblyReference.cache
