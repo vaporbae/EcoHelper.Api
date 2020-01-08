@@ -19,7 +19,6 @@
             return Ok(await Mediator.Send(command));
         }
 
-        [Authorize]
         [HttpGet("/api/BaseVersion/details/{id}")]
         public async Task<IActionResult> GetBaseVersionDetails(int id)
         {
