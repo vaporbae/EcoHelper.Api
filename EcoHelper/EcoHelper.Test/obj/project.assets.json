@@ -12765,11 +12765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\EcoHelper.Test.csproj",
+      "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\EcoHelper.Test.csproj",
       "projectName": "EcoHelper.Test",
-      "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\EcoHelper.Test.csproj",
+      "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\EcoHelper.Test.csproj",
       "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\obj\\",
+      "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12790,26 +12790,26 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Api\\EcoHelper.Api.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj"
             }
           }
         }

@@ -14,3 +14,11 @@ C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHel
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.AssemblyInfo.cs
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.dll
 C:\Git\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\bin\Release\netcoreapp2.2\EcoHelper.Common.deps.json
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\bin\Release\netcoreapp2.2\EcoHelper.Common.dll
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\bin\Release\netcoreapp2.2\EcoHelper.Common.pdb
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.csprojAssemblyReference.cache
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.AssemblyInfoInputs.cache
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.AssemblyInfo.cs
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.dll
+C:\Users\m.kalisz\Documents\GitHub\EcoHelper.Api\EcoHelper\EcoHelper.Common\obj\Release\netcoreapp2.2\EcoHelper.Common.pdb

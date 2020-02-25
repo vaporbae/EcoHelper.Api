@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {}
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {}
   },
   "projects": {
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
         "projectName": "EcoHelper.Common",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

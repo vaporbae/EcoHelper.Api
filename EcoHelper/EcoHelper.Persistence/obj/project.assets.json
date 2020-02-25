@@ -9512,11 +9512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj",
       "projectName": "EcoHelper.Persistence",
-      "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj",
+      "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\EcoHelper.Persistence.csproj",
       "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -9537,11 +9537,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
             },
-            "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
-              "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
+            "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+              "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
             }
           }
         }

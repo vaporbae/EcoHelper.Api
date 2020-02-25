@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {}
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
         "projectName": "EcoHelper.Application.DTO",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
-                "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
+              "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
+                "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
         "projectName": "EcoHelper.Application",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -100,11 +100,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
-                "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
+              "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application.DTO\\EcoHelper.Application.DTO.csproj"
               },
-              "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
-                "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
+              "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+                "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
         "projectName": "EcoHelper.Common",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\EcoHelper.Common.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj",
         "projectName": "EcoHelper.Domain",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\EcoHelper.Domain.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -307,14 +307,14 @@
         }
       }
     },
-    "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {
+    "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj",
         "projectName": "EcoHelper.Infrastructure",
-        "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\EcoHelper.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\m.kalisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -335,8 +335,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
-                "projectPath": "C:\\Git\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
+              "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj": {
+                "projectPath": "C:\\Users\\m.kalisz\\Documents\\GitHub\\EcoHelper.Api\\EcoHelper\\EcoHelper.Application\\EcoHelper.Application.csproj"
               }
             }
           }
